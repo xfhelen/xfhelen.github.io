@@ -3,15 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2017/2 | Welcome to xfhelen&#39;s Homepage</title>
+    <title>An investigation into defense against SPIT | Welcome to xfhelen&#39;s Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Welcome to xfhelen's Homepage">
-<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="An investigation into defense against SPIT">
+<meta property="og:type" content="article">
+<meta property="og:title" content="An investigation into defense against SPIT">
+<meta property="og:url" content="http://yoursite.com/2017/01/16/2016-08-08/index.html">
 <meta property="og:site_name" content="Welcome to xfhelen's Homepage">
+<meta property="og:description" content="An investigation into defense against SPIT">
+<meta property="og:image" content="http://yoursite.com/img/Mobile">
+<meta property="og:updated_time" content="2017-01-16T05:09:20.175Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome to xfhelen's Homepage">
+<meta name="twitter:title" content="An investigation into defense against SPIT">
+<meta name="twitter:description" content="An investigation into defense against SPIT">
+<meta name="twitter:image" content="http://yoursite.com/img/Mobile">
     
 
     
@@ -122,73 +130,138 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive: 2017/2
+    <a class="page-title-link" href="/categories/blogs/">blogs</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-2016-08-08" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/02/10/index/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2017/02/10/index/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2017-02-10T09:00:37.762Z" itemprop="datePublished">2017-02-10</time></p>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/02/10/index/">Hello World</a>
+        An investigation into defense against SPIT
         </h1>
     
 
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
+            </header>
+        
+        
+            <div class="article-subtitle">
+                <a href="/2017/01/16/2016-08-08/" class="article-date">
+    <time datetime="2017-01-16T02:30:18.000Z" itemprop="datePublished">2017-01-16</time>
+</a>
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="An-investigation-into-defense-against-SPIT"><a href="#An-investigation-into-defense-against-SPIT" class="headerlink" title="An investigation into defense against SPIT"></a>An investigation into defense against SPIT</h1><a id="more"></a>
+<p> Research works related to defense against Spam over Internet Telephony consist of the following categories:</p>
+<ol>
+<li><p><strong>Machine learning</strong>. This work uses semi-supervised machine learning for detection of SPIT calls. It extends K-Means algorithm to classify the  callers. But they focus too much on the implementation of algorithm. It leverages too many features, many of which are difficult to obtain. And it rejects all the possible fraud calls, which violates the original purpose of VoIP.</p>
+</li>
+<li><p><strong>Filter model based on credits</strong>. There are some works use the interval/duration of a call to determine the callers’ and callees’ reputation. The papers consider that low-reputation customers always avoid talking too long, worrying about being discovered. I don’t think it’s a reasonable way because it costs much time to gain the victims’ belief.  Some others</p>
+</li>
+<li><p><strong>Filter model on the basis of user patterns</strong>. Namely, through the call habits (such as the frequency of incoming calls and outgoing calls), we can evaluate and establish the user’s profile of call activity, which can be used to determine the good or bad callers (e.g., as for a bad caller, he always/almost has few outgoing calls instead of incoming calls).</p>
+</li>
+<li><p><strong>Other work</strong> tries to establish a call record reservation system in the cloud, which is expensive. It proposes to implement a communication and reservation server added in the existed telephony infrastructures and then transfer the collected data into cloud to analyze.</p>
+</li>
+</ol>
+<p>In my opinion, most existed works have noticed the importance of SPIT. However, there are few works aimed at the spoofed caller id fraud. Most of them lack a detailed and specific solution. I intend to secure people from vishing with two-side protection,rejection and real-time warning. Rejection takes before alerting the callees via the mismatching between the specified caller IDs and their URIs. Real-time warning is implemented by an attestation of identified spoofed id in the attestation center in the cloud.</p>
+<p><strong>CCS’10: PinDr0p: Using Single-Ended Audio Features To Determine Call Provenance.</strong><br><strong> Research background </strong>: The current telephony infrastructure allows users to communicate using a variety of technologies, mainly classified into 3 categories: PSTN, cellular and VoIP.</p>
+<p><img src="/img/Mobile Network.PNG" alt="Mobile Network"></p>
+<p><strong> Terminologies explanation </strong></p>
+<ul>
+<li>PSTN represents traditional circuit-switched telephony, which supports lossless connections and high fidelity audio.</li>
+<li>VoIP runs on top of IP links and generally shares the same paths as all other Internet-based traffic.</li>
+<li>Cellular can be treated as the mixture of PSTN and VoIP, namely it is the PSTN network with partial replacement of the Internet.</li>
+<li>Voice is encoded and decoded in each of these networks using a variety of codecs and they use different codecs. Thus, transition of these codecs take place frequently.</li>
+</ul>
+<p><strong> Research Issue </strong>: The diversification of telephony technologies admits a call data transfer without verification, namely call ID spoofing,which can be exploited by scammers to criminalize victims.</p>
+<p><strong>Research Solution</strong>: This paper aims at identifying the provenance of a call. The authors believe that the data loss of these codecs transitions can be manipulated by the scammers although they can modify the phone number.Thus, they analyze the data loss of the call data while being transformed among different telephony networks. And then use neural algorithm to classify the call provenance by the data loss profile.</p>
+<p>One interesting method is that they measure data loss by conserving the energy trace of the signal instead of analyzing the datagram. Namely, it’s sometime convenient to obtain one’s profile in another perspective. Energy. Energy!</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2017/01/16/2016-08-08/" data-id="ciyzliom000091ovqsnmum20k" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -249,6 +322,29 @@ Quick
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/01/16/2016-10-26/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">+ récent</strong>
+        <p class="article-nav-title">
+        
+            George Hatz - the mad teenage hacker
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2017/01/16/2017-01-10/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">- récent</strong>
+        <p class="article-nav-title">Some Techniques for normalizing into 0 and 1</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -432,11 +528,13 @@ Quick
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/2017/01/16/2016-08-08/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

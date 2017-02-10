@@ -3,15 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2017/2 | Welcome to xfhelen&#39;s Homepage</title>
+    <title>An introduction to the credit scheduler in Xen | Welcome to xfhelen&#39;s Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Welcome to xfhelen's Homepage">
-<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="An introduction to the credit scheduler in XenCredit scheduler provides automatic load balancing of virtual CPUs across physical CPUs on an SMP host. The scheduler awards credit to each VM periodicall">
+<meta property="og:type" content="article">
+<meta property="og:title" content="An introduction to the credit scheduler in Xen">
+<meta property="og:url" content="http://yoursite.com/2016/06/01/2016-06-01/index.html">
 <meta property="og:site_name" content="Welcome to xfhelen's Homepage">
+<meta property="og:description" content="An introduction to the credit scheduler in XenCredit scheduler provides automatic load balancing of virtual CPUs across physical CPUs on an SMP host. The scheduler awards credit to each VM periodicall">
+<meta property="og:image" content="http://yoursite.com/img/XenScheduler.PNG">
+<meta property="og:updated_time" content="2017-01-16T04:17:31.228Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome to xfhelen's Homepage">
+<meta name="twitter:title" content="An introduction to the credit scheduler in Xen">
+<meta name="twitter:description" content="An introduction to the credit scheduler in XenCredit scheduler provides automatic load balancing of virtual CPUs across physical CPUs on an SMP host. The scheduler awards credit to each VM periodicall">
+<meta name="twitter:image" content="http://yoursite.com/img/XenScheduler.PNG">
     
 
     
@@ -122,73 +130,138 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive: 2017/2
+    <a class="page-title-link" href="/categories/blogs/">blogs</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-2016-06-01" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/02/10/index/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2017/02/10/index/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2017-02-10T09:00:37.762Z" itemprop="datePublished">2017-02-10</time></p>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/02/10/index/">Hello World</a>
+        An introduction to the credit scheduler in Xen
         </h1>
     
 
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
+            </header>
+        
+        
+            <div class="article-subtitle">
+                <a href="/2016/06/01/2016-06-01/" class="article-date">
+    <time datetime="2016-05-31T16:00:00.000Z" itemprop="datePublished">2016-06-01</time>
+</a>
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="An-introduction-to-the-credit-scheduler-in-Xen"><a href="#An-introduction-to-the-credit-scheduler-in-Xen" class="headerlink" title="An introduction to the credit scheduler in Xen"></a>An introduction to the credit scheduler in Xen</h1><p>Credit scheduler provides automatic load balancing of virtual CPUs across physical CPUs on an SMP host. The scheduler awards credit to each VM periodically and charges each VM to run on the CPU.</p>
+<p>To be specific, there are four main components: a virtual CPU pool, a physical CPU pool, a credit calculator and a credit scheduler (illustrated in the figure). The credit calculator calculates and updates the credit for every domain per 10ms. The scheduler dispatches the vCPU to a pCPU every 30ms according to their states, i.e., priorities. </p>
+<p><img src="/img/XenScheduler.PNG" alt="Xen Scheduler"></p>
+<p>There are 3 priorities:</p>
+<ul>
+<li>over state joining at the tail of the scheduling queue.</li>
+<li>under state allowed to run before any that are out of credit.</li>
+<li>boost state to give mostly idle vCPUs a chance to run without accumulating too much credit.<br>In all, the scheduling queue is ordered: BOOST, UNDER, OVER from head to tail.</li>
+</ul>
+<p><strong>Credit1</strong><br>It contains 2 key parameters weight and cap:</p>
+<ul>
+<li>weight represents the signi cance of a vCPU. I.e., the higher weight a vCPU has, the more pCPU it can consume.</li>
+<li>cap representsthe maximum amount of pCPU a domain will be able to consume. (Caution: it use an integrity to illustrate percentage. E.g., 100 = 1 pCPU)</li>
+</ul>
+<p><strong>Risks for credit1:</strong></p>
+<ul>
+<li>Too much overhead of context switch for a vCPU running IO-intensive applications. it is because that these vCPU spends much time on IO while a little time computing.</li>
+<li>Malicious accumulation of credit. In another words, a malicious vCPU can accumulate plenty of credit through staying in idle for a period and then occupy most of the computing * resource with purpose of holding back the victim.</li>
+</ul>
+<p><strong>Credit2</strong><br>Credit2 can solve the problems of credit1. It adds 3 extra mechanisms:</p>
+<ol>
+<li>ratelimite combats this problem by de ning the minimum number of microseconds a VM would be allowed to run uninterrupted before being context switched with the default being 1ms.</li>
+<li>timeslice allows for tweaking the scheduler. I.e., it can change the scheduling time, which is 30ms by default.</li>
+<li>a new credit reset condition prevents any VM from accumulating too much credit.<br>ratelimit and timeslice can be configured with tool xl sched_credit [option]</li>
+</ol>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2016/06/01/2016-06-01/" data-id="ciyzlioll00011ovq33ezg4bt" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -249,6 +322,23 @@ Quick
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/01/16/2016-08-09/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">+ récent</strong>
+        <p class="article-nav-title">
+        
+            Abusing Phone Numbers and Cross-application Features for Crafting Targeted Attacks
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -432,11 +522,13 @@ Quick
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/2016/06/01/2016-06-01/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

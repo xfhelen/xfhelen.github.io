@@ -3,15 +3,26 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2017/2 | Welcome to xfhelen&#39;s Homepage</title>
+    <title>Xen环境下搭建NFS实现Domain0与DomainU之间共享文件 | Welcome to xfhelen&#39;s Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Welcome to xfhelen's Homepage">
-<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
+网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件">
+<meta property="og:url" content="http://yoursite.com/2017/01/16/2016-07-02/index.html">
 <meta property="og:site_name" content="Welcome to xfhelen's Homepage">
+<meta property="og:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
+网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
+<meta property="og:image" content="http://yoursite.com/img/2016-07-01.PNG">
+<meta property="og:updated_time" content="2017-01-16T04:21:55.141Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome to xfhelen's Homepage">
+<meta name="twitter:title" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件">
+<meta name="twitter:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
+网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
+<meta name="twitter:image" content="http://yoursite.com/img/2016-07-01.PNG">
     
 
     
@@ -122,73 +133,157 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive: 2017/2
+    <a class="page-title-link" href="/categories/blogs/">blogs</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-2016-07-02" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/02/10/index/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2017/02/10/index/">0</span>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            
-            </p>
-            <p class="date"><time datetime="2017-02-10T09:00:37.762Z" itemprop="datePublished">2017-02-10</time></p>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/02/10/index/">Hello World</a>
+        Xen环境下搭建NFS实现Domain0与DomainU之间共享文件
         </h1>
     
 
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
+            </header>
+        
+        
+            <div class="article-subtitle">
+                <a href="/2017/01/16/2016-07-02/" class="article-date">
+    <time datetime="2017-01-16T02:38:45.000Z" itemprop="datePublished">2017-01-16</time>
+</a>
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件"><a href="#Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="headerlink" title="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件"></a>Xen环境下搭建NFS实现Domain0与DomainU之间共享文件</h1><p>笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。</p>
+<p>网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法。PS：非Xen环境可以参考本篇笔记。</p>
+<p><strong>基础知识</strong><br><strong>NFS (Network File System)</strong> allows you to ‘share’ a directory located on one networked computer with other computers/devices on that network. （NFS是一个网络文件系统，它允许在一个网络上的多台电脑或者其他设备或者OS共享文件。）</p>
+<p>NFS主要包含两个部分：</p>
+<ol>
+<li>Server，server用于存放共享目录，比如说下文将会提到的/export/users。（The computer where directory located is called the server and computers or devices connecting to that server are called clients. ）</li>
+<li>Clients，clients则是将server的共享目录虚拟加载到自己的文件系统上来（通过映射到本地目录的方式，e.g., /sharedFiles），作为他们自己文件目录。（Clients usually ‘mount’ the shared directory to make it a part of their own directory structure）</li>
+</ol>
+<p>简单说来，NFS工作模式是这样的：</p>
+<ol>
+<li>建立一个NFS Server，并且在server上建立一个供clients共享的目录，就像是shared memory。所有clients都可以把该目录作为自己的文件目录使用，并且只要给它加上权限（chmod +777 /export/users），则所有clients可以在本地读写这个目录。</li>
+<li>client 将server上的共享目录映射到自己本地目录中</li>
+<li>client mount共享目录</li>
+</ol>
+<p><strong>详细步骤</strong></p>
+<ol>
+<li><p>Step 1（Creating the NFS Server）：</p>
+<ul>
+<li>a. 安装NFS所需的包: apt-get install nfs-kernel-server</li>
+<li>b. 创建共享目录 /export/users：mkdir -p /export/users, 为了保证所有clients能够自由读写该目录，则给他加上777权限：chmod<br>+777 /export/user</li>
+<li>c. 将实际的用户目录mount到共享目录上： mount –bind /home/users<br>/export/users</li>
+<li>d. 为了保证系统重启两个目录仍是mount在一起的，则需修改文件/etc/fstab,否则么次重启都需要进行步骤#3一次；/etc/fstab文件修改如下：<br>  在文件末尾加上：/home/users<br>/export/users none bind 0 0</li>
+<li><p>e. 为了使得其他在局域网内的client可以访问，则需要对/etc/export文件进行修改，在文件末尾加上:<br>  /export<br>192.168.1.0/24(rw,fsid=0,insecure,no_subtree_check,async)<br>/export/users 192.168.1.0/24(rw,nohide,insecure,no_subtree_check,async)</p>
+</li>
+<li><p>f.  restart NFS 服务：service<br>nfs-kernel-server restart</p>
+</li>
+<li><p>g.  改NFS server绑定静态IP，这样做的目的是能够保证server的IP固定，client能够通过IP访问到server：<br>  a. ifconfig 查看server的inet addr,Bcast, mask<br>  b. netstat -rn查看gateway<br>  c. 利用上麦那两步获取的相关数据，修改/etc/network/interface文件：</p>
+<p><img src="/img/2016-07-01.PNG" alt="2017-07-01"></p>
+<p>  d.重启网卡： /etc/init.d/network restart</p>
+<pre><code>[相关链接](http://www.cnblogs.com/vincedotnet/p/4013099.html)    
+</code></pre></li>
+</ul>
+</li>
+<li><p>Step 2（Configuring the Client Computers）：</p>
+<ul>
+<li>a. 安装NFS依赖的包：sudo apt-get install portmap nfs-common</li>
+<li>b. 创建一个目录用于存放共享资源：mkdir /sharedFiles</li>
+<li>c. 修改/etc/fstab 文件，将server的共享目录/export/users 映射到本地/sharedFiles目录上，这样client就可以通过访问笨的/sharedFiles直接访问server上的共享目录。在/etc/fstab后面添加：<br>  192.168.1.111:/export/users /sharedFiles nfs rsize=8192,wsize=8192,timeo=14,intr</li>
+</ul>
+</li>
+<li><p>Step 3 (Mounting the shared category):<br> mount -a</p>
+</li>
+</ol>
+<p>相关链接：<br><a href="https://help.ubuntu.com/community/SettingUpNFSHowTo" target="_blank" rel="external">https://help.ubuntu.com/community/SettingUpNFSHowTo</a><br><a href="http://www.wikihow.com/Share-Files-Between-Linux-Computers-Using-NFS" target="_blank" rel="external">http://www.wikihow.com/Share-Files-Between-Linux-Computers-Using-NFS</a></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2017/01/16/2016-07-02/" data-id="ciyzlioll00041ovq69apivon" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -249,6 +344,29 @@ Quick
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/01/16/2016-06-08/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">+ récent</strong>
+        <p class="article-nav-title">
+        
+            Writing Skills for Academic English
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2017/01/16/2016-07-01/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">- récent</strong>
+        <p class="article-nav-title">ubuntu 添加coretemp 模块</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -432,11 +550,13 @@ Quick
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/2017/01/16/2016-07-02/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
