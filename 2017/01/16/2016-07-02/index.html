@@ -17,7 +17,7 @@
 <meta property="og:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
 网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
 <meta property="og:image" content="http://yoursite.com/images/2016-07-01.PNG">
-<meta property="og:updated_time" content="2017-02-10T11:35:28.884Z">
+<meta property="og:updated_time" content="2017-02-10T11:58:09.290Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件">
 <meta name="twitter:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
@@ -85,7 +85,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -104,10 +104,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'categories',
-            TAGS: 'etiquetes',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -187,7 +187,7 @@
 <li><p>f.  restart NFS 服务：service<br>nfs-kernel-server restart</p>
 </li>
 <li><p>g.  改NFS server绑定静态IP，这样做的目的是能够保证server的IP固定，client能够通过IP访问到server：<br>  a. ifconfig 查看server的inet addr,Bcast, mask<br>  b. netstat -rn查看gateway<br>  c. 利用上麦那两步获取的相关数据，修改/etc/network/interface文件：</p>
-<p><img src="images/2016-07-01.PNG" alt="2017-07-01"></p>
+<p><img src="/images/2016-07-01.PNG" alt="2017-07-01"></p>
 <p>  d.重启网卡： /etc/init.d/network restart</p>
 <pre><code>[相关链接](http://www.cnblogs.com/vincedotnet/p/4013099.html)    
 </code></pre></li>
@@ -349,7 +349,7 @@
 <nav id="article-nav">
     
         <a href="/2017/01/16/2016-06-08/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">més nou</strong>
+        <strong class="article-nav-caption">más nuevo</strong>
         <p class="article-nav-title">
         
             Writing Skills for Academic English
@@ -360,7 +360,7 @@
     
     
         <a href="/2017/01/16/2016-11-01/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">antic</strong>
+        <strong class="article-nav-caption">antiguo</strong>
         <p class="article-nav-title">外网/内网端口映射-实现外网远程访问PC/服务器</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
@@ -373,7 +373,7 @@
             
                 
     <div class="widget-wrap">
-        <h3 class="widget-title">recents</h3>
+        <h3 class="widget-title">recientes</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -403,7 +403,7 @@
                             <a href="/2017/01/16/2016-05-25/" class="thumbnail">
     
     
-        <span style="background-image:url(images/001.jpg)" alt="出国会议 - 韩国" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/001.jpg)" alt="出国会议 - 韩国" class="thumbnail-image"></span>
     
     
 </a>
@@ -463,7 +463,7 @@
                             <a href="/2017/01/16/2016-07-02/" class="thumbnail">
     
     
-        <span style="background-image:url(images/2016-07-01.PNG)" alt="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/2016-07-01.PNG)" alt="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="thumbnail-image"></span>
     
     
 </a>
@@ -484,7 +484,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">categories</h3>
+        <h3 class="widget-title">categorias</h3>
         <div class="widget">
             <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blogs/">blogs</a><span class="category-list-count">14</span></li></ul>
         </div>
@@ -494,7 +494,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">arxius</h3>
+        <h3 class="widget-title">archivos</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
