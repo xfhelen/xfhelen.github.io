@@ -16,13 +16,13 @@
 <meta property="og:site_name" content="Welcome to xfhelen's Homepage">
 <meta property="og:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
 网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
-<meta property="og:image" content="http://yoursite.com/img/2016-07-01.PNG">
-<meta property="og:updated_time" content="2017-01-16T04:21:55.141Z">
+<meta property="og:image" content="http://yoursite.com/images/2016-07-01.PNG">
+<meta property="og:updated_time" content="2017-02-10T11:35:28.884Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件">
 <meta name="twitter:description" content="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
 网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法">
-<meta name="twitter:image" content="http://yoursite.com/img/2016-07-01.PNG">
+<meta name="twitter:image" content="http://yoursite.com/images/2016-07-01.PNG">
     
 
     
@@ -187,7 +187,7 @@
 <li><p>f.  restart NFS 服务：service<br>nfs-kernel-server restart</p>
 </li>
 <li><p>g.  改NFS server绑定静态IP，这样做的目的是能够保证server的IP固定，client能够通过IP访问到server：<br>  a. ifconfig 查看server的inet addr,Bcast, mask<br>  b. netstat -rn查看gateway<br>  c. 利用上麦那两步获取的相关数据，修改/etc/network/interface文件：</p>
-<p><img src="/img/2016-07-01.PNG" alt="2017-07-01"></p>
+<p><img src="images/2016-07-01.PNG" alt="2017-07-01"></p>
 <p>  d.重启网卡： /etc/init.d/network restart</p>
 <pre><code>[相关链接](http://www.cnblogs.com/vincedotnet/p/4013099.html)    
 </code></pre></li>
@@ -211,7 +211,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2017/01/16/2016-07-02/" data-id="ciyzqgcky0007h4vq0jryi1hx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2017/01/16/2016-07-02/" data-id="ciyzqlc640005n0vqexq9s1p1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -403,7 +403,7 @@
                             <a href="/2017/01/16/2016-05-25/" class="thumbnail">
     
     
-        <span style="background-image:url(img/001.jpg)" alt="出国会议 - 韩国" class="thumbnail-image"></span>
+        <span style="background-image:url(images/001.jpg)" alt="出国会议 - 韩国" class="thumbnail-image"></span>
     
     
 </a>
@@ -420,7 +420,7 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2017/01/16/2016-06-08/" class="thumbnail">
+                            <a href="/2017/01/16/2016-11-01/" class="thumbnail">
     
     
         <span class="thumbnail-image thumbnail-none"></span>
@@ -432,7 +432,7 @@
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/blogs/">blogs</a></p>
-                            <p class="item-title"><a href="/2017/01/16/2016-06-08/" class="title">Writing Skills for Academic English</a></p>
+                            <p class="item-title"><a href="/2017/01/16/2016-11-01/" class="title">外网/内网端口映射-实现外网远程访问PC/服务器</a></p>
                             <p class="item-date"><time datetime="2017-01-16T02:38:45.000Z" itemprop="datePublished">2017-01-16</time></p>
                         </div>
                     </li>
@@ -463,7 +463,7 @@
                             <a href="/2017/01/16/2016-07-02/" class="thumbnail">
     
     
-        <span style="background-image:url(/img/2016-07-01.PNG)" alt="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="thumbnail-image"></span>
+        <span style="background-image:url(images/2016-07-01.PNG)" alt="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="thumbnail-image"></span>
     
     
 </a>
