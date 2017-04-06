@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Installing and configuring the Hadoop in the VM environment (1) | Welcome to xfhelen&#39;s Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="Installing and configuring the Hadoop in the VM environment (1)
+Premilinaries:1. Update the source list: apt-get update2.Install the build-essential to obtain the basic developing tools: apt-get insta">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Installing and configuring the Hadoop in the VM environment (1)">
+<meta property="og:url" content="http://yoursite.com/2017/03/06/2017-03-02/index.html">
+<meta property="og:site_name" content="Welcome to xfhelen's Homepage">
+<meta property="og:description" content="Installing and configuring the Hadoop in the VM environment (1)
+Premilinaries:1. Update the source list: apt-get update2.Install the build-essential to obtain the basic developing tools: apt-get insta">
+<meta property="og:image" content="http://yoursite.com/images/20170302-01.JPG">
+<meta property="og:updated_time" content="2017-03-07T02:10:28.332Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Installing and configuring the Hadoop in the VM environment (1)">
+<meta name="twitter:description" content="Installing and configuring the Hadoop in the VM environment (1)
+Premilinaries:1. Update the source list: apt-get update2.Install the build-essential to obtain the basic developing tools: apt-get insta">
+<meta name="twitter:image" content="http://yoursite.com/images/20170302-01.JPG">
+    
+
+    
+        <link rel="alternate" href="/" title="Welcome to xfhelen&#39;s Homepage" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+    
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">index.blogs</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/research">index.research</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/publication">index.publication</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/cv">index.cv</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-2017-03-02" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Installing and configuring the Hadoop in the VM environment (1)
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-subtitle">
+                <a href="/2017/03/06/2017-03-02/" class="article-date">
+    <time datetime="2017-03-06T07:25:54.129Z" itemprop="datePublished">2017-03-06</time>
+</a>
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>Installing and configuring the Hadoop in the VM environment (1)</p>
+<h2 id="Premilinaries"><a href="#Premilinaries" class="headerlink" title="Premilinaries:"></a>Premilinaries:</h2><p><strong>1. Update the source list:</strong> <code>apt-get update</code><br><strong>2.Install the <em>build-essential</em> to obtain the basic developing tools:</strong> <code>apt-get install build-essential</code><br><strong>3.Install the editor <em>vim</em>:</strong> <code>apt-get install vim</code><br><strong>Install the <em>wget</em> to download the hadoop pakage:</strong> <code>apt-get install wget</code></p>
+<h2 id="Installing-the-JDK"><a href="#Installing-the-JDK" class="headerlink" title="Installing the JDK"></a>Installing the JDK</h2><p>Because Hadoop is wriiten in JAVA, we must install the <em>Java Development Kit</em> to support it.<br><strong>1.Install the default version of Java:</strong> <code>apt-get install default-jdk</code><br><strong>2.Check the installing path of Java:</strong> <code>dpkg -L openjdk-7-jdk | grep &#39;/bin/javac&#39;</code><br><strong>3.Configuring the environment variale of <em>JAVA_HOME</em>:</strong><br>&emsp; &emsp; <code>vim ~/.bashrc</code>;<code>update-alternatives --config java</code><br><strong>4.Append the following to the end of <em>~/.bashrc</em></strong><br>&emsp; &emsp;<code>export JAVA\_HOME=/usr/lib/jvm/java-7-openjdk-amd64</code><br>&emsp; &emsp;<code>export HADOOP_INSTALL=/usr/local/hadoop</code><br>&emsp; &emsp;<code>export PATH=$PATH:$HADOOP_INSTALL/bin</code><br>&emsp; &emsp;<code>export PATH=$PATH:$HADOOP_INSTALL/sbin</code><br>&emsp; &emsp;<code>export HADOOP_MAPRED_HOME=$HADOOP_INSTALL</code><br>&emsp; &emsp;<code>export HADOOP_COMMON_HOME=$HADOOP_INSTALL</code><br>&emsp; &emsp;<code>export HADOOP_HDFS_HOME=$HADOOP_INSTALL</code><br>&emsp; &emsp;<code>export YARN_HOME=$HADOOP_INSTALL</code><br>&emsp; &emsp;<code>export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_INSTALL/lib/native</code><br>&emsp; &emsp;<code>export HADOOP_OPTS=&quot;-Djava.library.path=$HADOOP_INSTALL/lib&quot;</code><br><strong>5.Excuting <em>the ~/.bashrc</em> to make it valid:</strong> <code>source ~/.bashrc</code><br><strong>6.Check if we configure correctly:</strong><br>&emsp; &emsp;<code>echo $JAVA_HOME</code><br>&emsp; &emsp;<code>java -version</code><br>&emsp; &emsp;<code>$JAVA_HOME/bin/java -version</code><br>If what <em>java -version</em> echo is same to <em>JAVA_HOME/bin/java -version</em>, we cinfigure it correctly.</p>
+<h2 id="Create-Hadoop-user"><a href="#Create-Hadoop-user" class="headerlink" title="Create Hadoop user"></a>Create Hadoop user</h2><p><strong>1.Add a group:</strong> <code>addgroup hadoop</code><br><strong>2.Add hadoop user:</strong> <code>adduser --ingroup hadoop hduser</code><br><strong>3.Add the administrator priority for hduser:</strong> <code>adduser hduser sudo</code><br><strong>4.Login hduser:</strong> <code>su hduser</code><br><strong>5.what follows is under hduser</strong></p>
+<h2 id="Installing-ssh"><a href="#Installing-ssh" class="headerlink" title="Installing ssh"></a>Installing ssh</h2><p><strong>1.Install ssh:</strong> <code>sudo apt-get install ssh</code><br><strong>2.Create and Setup SSH certificates:</strong><br>&emsp; &emsp;<code>ssh-keygen -t rsa -P &quot;&quot;</code><br>&emsp; &emsp;<code>cat $HOME/.ssh/id_rsa.pub &gt;&gt; $HOME/.ssh/authorized_keys</code><br><strong>3.Check if ssh works:</strong> <code>ssh localhost</code></p>
+<h2 id="Install-Hadoop"><a href="#Install-Hadoop" class="headerlink" title="Install Hadoop"></a>Install Hadoop</h2><p><strong>1.Download the Hadoop pakage:</strong> <code>wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz</code><br><strong>2.Decode the hadoop pakage:</strong> <code>tar xvzf hadoop-2.6.0.tar.gz</code><br><strong>3.Move the Hadoop installation to the <em>/usr/local/hadoop directory:</em></strong><br>&emsp; &emsp;<code>cd hadoop-2.6.0</code>; <code>sudo mv * /usr/local/hadoop</code><br>&emsp; &emsp;<code>sudo chown -R hduser:hadoop /usr/local/hadoop</code><br><img src="/images/20170302-01.JPG" alt=""><br><strong>4.If hadoop doesn’t exist, make a folder for it:</strong> <code>sudo mkdir /usr/local/hadoop</code></p>
+<h2 id="Configuring-the-hadoop"><a href="#Configuring-the-hadoop" class="headerlink" title="Configuring the hadoop"></a>Configuring the hadoop</h2><p><strong>A.The following files will have to be motified to complete the hadoop setup:</strong><br>/usr/local/hadoop/etc/hadoop/hadoop-env.sh<br>/usr/local/hadoop/etc/hadoop/core-site.xml<br>/usr/local/hadoop/etc/hadoop/mapred-site.template<br>/usr/local/hadoop/etc/hadoop/hdfs-site.xml<br><strong>B.Modifying the <em>hadoop-env.sh</em> (About line 25):</strong><br><code>vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh</code><br><code>export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64</code><br><strong>C.<em>core-site.xml</em>:</strong><br><code>sudo mkdir -p /app/hadoop/tmp</code><br><code>sudo mkdir -p /app/hadoop/tmp</code><br><code>vim /usr/local/hadoop/etc/hadoop/core-site.xml</code><br><code>&lt;configuration&gt;</code><br>    &emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;hadoop.tmp.dir&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;/app/hadoop/tmp&lt;/value&gt;</code><br>    &emsp; &emsp;<code>&lt;/property&gt;</code><br>    &emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;fs.default.name&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;hdfs://localhost:54310&lt;/value&gt;</code><br>    &emsp; &emsp;<code>&lt;/property&gt;</code><br><code>&lt;/configuration&gt;</code></p>
+<p><strong>D.<em>mapred-site/xml</em></strong><br><strong>1.By default, the /usr/local/hadoop/etc/hadoop/ folder contains /usr/local/hadoop/etc/hadoop/mapred-site.xml.template. We need to modify it into mapred-site.xml:</strong> <code>cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml</code><br><strong>Adding the following at the end of this file:</strong><br><code>vim /usr/local/hadoop/etc/hadoop/mapred-site.xml</code><br><code>&lt;configuration&gt;</code><br>    &emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;mapred.job.tracker&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;localhost:54311&lt;/value&gt;</code><br>    &emsp; &emsp;<code>&lt;/property&gt;</code><br><code>&lt;/configuration&gt;</code></p>
+<p><strong>E.<em>hdfs-site.xml</em></strong><br><strong>1.It is used to specify the directories which will be used as the namenode and the datanode on that host. Thus, before editing this file, we need to create two directories which will contain the namenode and the datanode for this Hadoop installation.</strong><br><code>sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode</code><br><code>sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode</code><br><code>sudo chown -R hduser:hadoop /usr/local/hadoop_store</code><br><strong>2.Add the fillowing at the end of this file:</strong><br><code>vim /usr/local/hadoop/etc/hadoop/hdfs-site.xml</code><br><code>&lt;configuration&gt;</code><br>&emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;dfs.replication&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;1&lt;/value&gt;</code><br>&emsp; &emsp;<code>&lt;/property&gt;</code><br>&emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;dfs.namenode.name.dir&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;file:/usr/local/hadoop_store/hdfs/namenode&lt;/value&gt;</code><br>&emsp; &emsp;<code>&lt;/property&gt;</code><br>&emsp; &emsp;<code>&lt;property&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;name&gt;dfs.datanode.data.dir&lt;/name&gt;</code><br>        &emsp; &emsp;&emsp; &emsp;<code>&lt;value&gt;file:/usr/local/hadoop_store/hdfs/datanode&lt;/value&gt;</code><br>&emsp; &emsp;<code>&lt;/property&gt;</code><br><code>&lt;/configuration&gt;</code></p>
+<h2 id="Format-the-new-hadoop-file-system"><a href="#Format-the-new-hadoop-file-system" class="headerlink" title="Format the new hadoop file system"></a>Format the new hadoop file system</h2><p><strong>1.Format the hadoop file system:</strong> <code>hadoop namenode -format</code><br><strong>2.If format sucessfully, it will create a current folder in the namenode folder:</strong> <code>ls /usr/local/hadoop_store/hdfs/namenode</code><br><strong>3.If errors occur, please adding the JAVA_HOME path to the <em>~/.bashrc</em> as same as the above.</strong></p>
+<h2 id="Control-hadoop"><a href="#Control-hadoop" class="headerlink" title="Control hadoop"></a>Control hadoop</h2><p><strong>1.Start:</strong> <code>cd /usr/local/hadoop/sbin; start-all.sh</code><br><img src="/images/20170302-02.JPG" alt=""><br><strong>2.Check:</strong> <code>jps</code><br><img src="/images/20170302-03.JPG" alt=""><br><strong>3.Stop:</strong> <code>stop-all.sh</code></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2017/03/06/2017-03-02/" data-id="cj16181450011bsdjyn00581g" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/xfhelen" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="linkedin" href="https://www.linkedin.com/in/xiaofeng-hou-a565bab5/" target="_blank">
+                        <i class="icon fa fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="http://weibo.com/6052928426/profile?topnav=1&wvr=6" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/04/06/2017-03-05/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            Install Xen in a Ubuntu(14.04) server
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2017/03/01/2017-03-01/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Open benchmarks</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/04/06/2017-03-05/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/04/06/2017-03-05/" class="title">Install Xen in a Ubuntu(14.04) server</a></p>
+                            <p class="item-date"><time datetime="2017-04-06T06:30:56.519Z" itemprop="datePublished">2017-04-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/03/06/2017-03-02/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/20170302-01.JPG)" alt="Installing and configuring the Hadoop in the VM environment (1)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/03/06/2017-03-02/" class="title">Installing and configuring the Hadoop in the VM environment (1)</a></p>
+                            <p class="item-date"><time datetime="2017-03-06T07:25:54.129Z" itemprop="datePublished">2017-03-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/03/01/2017-03-01/" class="thumbnail">
+    
+    
+        <span style="background-image:url(images/benchmark.jpg)" alt="Open benchmarks" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/blogs/">blogs</a></p>
+                            <p class="item-title"><a href="/2017/03/01/2017-03-01/" class="title">Open benchmarks</a></p>
+                            <p class="item-date"><time datetime="2017-03-01T02:35:24.000Z" itemprop="datePublished">2017-03-01</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/02/15/test/" class="thumbnail">
+    
+    
+        <span style="background-image:url(images/hello.png)" alt="TEST" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/02/15/test/" class="title">TEST</a></p>
+                            <p class="item-date"><time datetime="2017-02-15T11:45:49.902Z" itemprop="datePublished">2017-02-15</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/02/15/index/" class="thumbnail">
+    
+    
+        <span style="background-image:url(images/hello.png)" alt="Hello World" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/02/15/index/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2017-02-15T11:22:01.855Z" itemprop="datePublished">2017-02-15</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blogs/">blogs</a><span class="category-list-count">16</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2017 xfhelen</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://yoursite.com/2017/03/06/2017-03-02/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
