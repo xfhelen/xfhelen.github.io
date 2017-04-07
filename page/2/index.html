@@ -145,17 +145,17 @@
         <article class="article article-summary">
     <div class="article-summary-inner">
         
-        <a href="/2017/01/16/2016-07-02/" class="thumbnail">
+        <a href="/2017/01/16/2016-07-01/" class="thumbnail">
     
     
-        <span style="background-image:url(/images/2016-07-01.PNG)" alt="Xen环境下搭建NFS实现Domain0与DomainU之间共享文件" class="thumbnail-image"></span>
+        <span style="background-image:url(images/coretemp.png)" alt="ubuntu 添加coretemp 模块" class="thumbnail-image"></span>
     
     
         
 <span class="comment-counter">
     <i class="fa fa-comments-o"></i>
     
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2017/01/16/2016-07-02/">0</span>
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2017/01/16/2016-07-01/">0</span>
     
 </span>
 
@@ -172,13 +172,16 @@
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/01/16/2016-07-02/">Xen环境下搭建NFS实现Domain0与DomainU之间共享文件</a>
+        <a href="/2017/01/16/2016-07-01/">ubuntu 添加coretemp 模块</a>
         </h1>
     
 
         <p class="article-excerpt">
-            Xen环境下搭建NFS实现Domain0与DomainU之间共享文件笔者最近在玩Xen Hypervisor，总是为如何在Host VM与Guest VMs之间共享数据而烦恼，在网上收到可以用NFS（Network File System）解决这个问题，于是开启了探索NFS之路。
-网上大部分文件说法不统一，让人难以理解，因此笔者结合前人们的笔记，总结了一个较为清晰、简单的Xen环境下NFS搭建方法
+            ubuntu 添加coretemp 模块coretemp本来是ubuntu系统自带的可以读取thermal sensors的模块文件，但是在Xen Guest VM中，却不会自动包含coretemp模块，因此需要自己手动编译，加载coretemp模块。
+步骤:
+
+安装依赖的包：apt-get install build-essential gcc linux-headers-uname -r
+创建
         </p>
     </div>
 </article>
