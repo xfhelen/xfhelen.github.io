@@ -17,7 +17,7 @@
 <meta property="og:description" content="ASPLOS 2017 in Xi’an - Day 1简介很庆幸在古长安-西安举办2017年的ASPLOS，很感谢导师李超特别副研究员资助我们师姐弟四人参加这次体系结构盛大会议。西安，作为世界四大古都之一，曾经作为中国首都和政治、文化。经济中心长达1100年。本次ASPLOS会议组带我们体验了秦始皇兵马俑的壮观，欣赏了玄宗与贵妃的凄美爱情故事。
 论文简介本次大会收到320篇论文投稿，被接收论文5">
 <meta property="og:image" content="http://yoursite.com/images/asplos-1.01.jpg">
-<meta property="og:updated_time" content="2017-04-14T09:52:57.377Z">
+<meta property="og:updated_time" content="2017-04-18T11:07:06.328Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ASPLOS2017 Day 1">
 <meta name="twitter:description" content="ASPLOS 2017 in Xi’an - Day 1简介很庆幸在古长安-西安举办2017年的ASPLOS，很感谢导师李超特别副研究员资助我们师姐弟四人参加这次体系结构盛大会议。西安，作为世界四大古都之一，曾经作为中国首都和政治、文化。经济中心长达1100年。本次ASPLOS会议组带我们体验了秦始皇兵马俑的壮观，欣赏了玄宗与贵妃的凄美爱情故事。
@@ -164,18 +164,13 @@
 <h2 id="论文简介"><a href="#论文简介" class="headerlink" title="论文简介"></a>论文简介</h2><p>本次大会收到320篇论文投稿，被接收论文56篇，这已经是接收数量最高的一年，去年是53篇，前年只有48篇。<br>本年度ASPLOS共评出两篇 Best Papers:<br><strong>*1. Black-box Concurrent Data Structures for NUMA Architectures</strong>, Irina Calciu (VMware Research Group); Siddhartha Sen (Microsoft Research); Mahesh Balakrishnan (Yale University); Marcos K. Auguilera (VMware Research Group)*</p>
 <p><strong>*2. Determining Application-specific Peak Power and Energy Requirements for Ultra-low-power Processors</strong>, Hari Cherupalli (University of Minnesota); Henry Duwe (University of Illinois); Weidong Ye (University of Illinois); Rakesh Kumar (University of Illinois); John Sartori (University of Minnesota)*</p>
 <p>如果分别用一句话概括，第2篇文章分析和决定低功耗处理器application级的peak power（尖峰功率）。</p>
-<h2 id="Sessions"><a href="#Sessions" class="headerlink" title="Sessions"></a>Sessions</h2><p><strong>Session 1: Highlight I</strong><br><em>1. Determining Application-specific Peak Power and Energy Requirements for Ultra-low-power Processor</em></p>
-<p>这篇文章是 University of Minnesota大学的Hari Cherupalli 的作品，Hari已经毕业了，所以由其博士二年级的师弟Henry Duwe做的presentation。这篇文章是2篇 Best Papers之一。<br>这篇文章主要提出了一种可以自动测量低功耗处理器（Ultra-Low-Power Processor）peak power的方法。 相比传统的ULP peak power 设置方法，本文的方法可以在application层更加细粒度的决定ULP的 peak power，使得系统的成本等相关因子最优。<br> 动机：与server或者PC不同，ULP系统往往只是处理的单一的application，因此ULP系统的功率和电能资源需求往往是和其application相关；传统决定系统供电功率和能源的方法都并不是从应用角度出发的；因此本文从application角度讨论如何为ULP提供更为精准的power supply。</p>
-<p>本文主要通过对application进行数据无关的电路门行为分析、功率和能耗的分析来计算peak power：<br><img src="/images/asplos-1.04.jpg" alt="基于application的peak power计算方式"><br> 个人观点：虽然本文属于处理器功率问题研究，但是本文的亮点在于从更细粒度的角度来对待系统功率和能源消耗。本文工作很细致，善于从不同角度分析问题。然而我对本文还是有一点疑虑: 本文不是很细致描述计算出peak power之后如何改变系统的供电功率，是实时的还是静态的？在我和Herny Duwe聊的时候，他似乎是说是通过控制电流来实时控制的。</p>
-<p><em>2. Prophet: Precise QoS Prediction on Non-Preemptive Accelerators to Improve Utilization in Warehouse Scale Computers</em></p>
-<p>这篇文章是由上交年轻有为的<a href="http://www.cs.sjtu.edu.cn/~chen-quan/" target="_blank" rel="external">陈全老师</a>以及我的偶像J<a href="http://jasonmars.org/category/publication/" target="_blank" rel="external">ason Mars</a>合作完成。陈全老师作为上交计算机系主任的大弟子，科研水平相当高，已经在很多相关领域顶会上发了很多文章。他曾经在Jason Mars的实验室交流过，因此应该和Jason Mars有着浓烈的师生情。</p>
-<p>当然，这篇文章并没有脱离陈全老师以及Jason Mars最近几年研究服务器上共存应用的tail latency工作，但是这篇文章的目的却是避免/减轻在加速器上共享应用对latency关键应用的影响。</p>
-<p>本文首先通过对实际系统的加速器进行性能和冲突分析，发现与服务器不同的是，加速器主要的冲突是在竞争处理单元、加速器内存带宽以及PCIe带宽，而不是cache和主存带宽，因此提出Prophet通过对共存应用该三点冲突的分析对应用的运行状态进行整合，对于没有冲突的部分，让应用一起运行；对于有冲突的部分，让latency关键的应用单独运行。</p>
-<p>个人观点：这篇文章不愧是Jason Mars的文章，不论内容还是写作风格都和他之前的文章保持一致。文章的角度是新的，开始考虑加速器的latency，但是解决方法和之前的却是差不多，都是在冲突的时候将QoS关键任务出来单独执行。</p>
-<p><em>3. Mallacc: Accelerating Memory Allocation</em><br>这篇文章是由哈佛大学博一的学生<a href="http://www.eecs.harvard.edu/~skanev/" target="_blank" rel="external">Svilen Kanev</a>完成，博一啊博一！！！！额，应该是博士刚毕业？哎，没看懂。不过他的导师是David Brooks！！！！体系结构元老级的人物，是所在实验室大老板的boss！！！！ </p>
-<p>这篇文章的主要实现了一个动态内存分配的加速器， Mallac。</p>
-<p>与传统加速器不同，Mallacc主要目的是减少内存分配延迟而不是提升系统输出量， 因此Mallacc主要针对动态内存分配的三个关键步骤进行加速。这三个步骤分别是：分配大小计算、检索空闲内存区域以及抽样内存使用。</p>
-<p>个人观点：由于能力有限，这篇文章我没太听懂，感兴趣的同志们可以仔细阅读文章。</p>
+<h2 id="Sessions"><a href="#Sessions" class="headerlink" title="Sessions"></a>Sessions</h2><p><strong>Session 1: Highlight I</strong><br><em>1. Determining Application-specific Peak Power and Energy Requirements for Ultra-low-power Processor</em><br>这篇文章是 University of Minnesota大学的Hari Cherupalli 的作品，Hari已经毕业了，所以由其博士二年级的师弟Henry Duwe做的presentation。这篇文章是2篇 Best Papers之一。<br>这篇文章主要提出了一种可以自动测量低功耗处理器（Ultra-Low-Power Processor）peak power的方法。 相比传统的ULP peak power 设置方法，本文的方法可以在application层更加细粒度的决定ULP的 peak power，使得系统的成本等相关因子最优。<br>动机：与server或者PC不同，ULP系统往往只是处理的单一的application，因此ULP系统的功率和电能资源需求往往是和其application相关；传统决定系统供电功率和能源的方法都并不是从应用角度出发的；因此本文从application角度讨论如何为ULP提供更为精准的power supply。<br>本文主要通过对application进行数据无关的电路门行为分析、功率和能耗的分析来计算peak power：<br><img src="/images/asplos-1.04.jpg" alt="基于application的peak power计算方式"><br> 个人观点：虽然本文属于处理器功率问题研究，但是本文的亮点在于从更细粒度的角度来对待系统功率和能源消耗。本文工作很细致，善于从不同角度分析问题。然而我对本文还是有一点疑虑: 本文不是很细致描述计算出peak power之后如何改变系统的供电功率，是实时的还是静态的？在我和Herny Duwe聊的时候，他似乎是说是通过控制电流来实时控制的。</p>
+<p><em>2. Prophet: Precise QoS Prediction on Non-Preemptive Accelerators to Improve Utilization in Warehouse Scale Computers</em><br>这篇文章是由上交年轻有为的<a href="http://www.cs.sjtu.edu.cn/~chen-quan/" target="_blank" rel="external">陈全老师</a>以及我的偶像J<a href="http://jasonmars.org/category/publication/" target="_blank" rel="external">ason Mars</a>合作完成。陈全老师作为上交计算机系主任的大弟子，科研水平相当高，已经在很多相关领域顶会上发了很多文章。他曾经在Jason Mars的实验室交流过，因此应该和Jason Mars有着浓烈的师生情。<br>当然，这篇文章并没有脱离陈全老师以及Jason Mars最近几年研究服务器上共存应用的tail latency工作，但是这篇文章的目的却是避免/减轻在加速器上共享应用对latency关键应用的影响。<br>本文首先通过对实际系统的加速器进行性能和冲突分析，发现与服务器不同的是，加速器主要的冲突是在竞争处理单元、加速器内存带宽以及PCIe带宽，而不是cache和主存带宽，因此提出Prophet通过对共存应用该三点冲突的分析对应用的运行状态进行整合，对于没有冲突的部分，让应用一起运行；对于有冲突的部分，让latency关键的应用单独运行。<br>个人观点：这篇文章不愧是Jason Mars的文章，不论内容还是写作风格都和他之前的文章保持一致。文章的角度是新的，开始考虑加速器的latency，但是解决方法和之前的却是差不多，都是在冲突的时候将QoS关键任务出来单独执行。</p>
+<p><em>3. Mallacc: Accelerating Memory Allocation</em><br>这篇文章是由哈佛大学博一的学生<a href="http://www.eecs.harvard.edu/~skanev/" target="_blank" rel="external">Svilen Kanev</a>完成，博一啊博一！！！！额，应该是博士刚毕业？哎，没看懂。不过他的导师是David Brooks！！！！体系结构元老级的人物，是所在实验室大老板的boss！！！！<br>这篇文章的主要实现了一个动态内存分配的加速器， Mallac。<br>与传统加速器不同，Mallacc主要目的是减少内存分配延迟而不是提升系统输出量， 因此Mallacc主要针对动态内存分配的三个关键步骤进行加速。这三个步骤分别是：分配大小计算、检索空闲内存区域以及抽样内存使用。<br>个人观点：由于能力有限，这篇文章我没太听懂，感兴趣的同志们可以仔细阅读文章。</p>
+<p><strong>Session 2: Highlight II</strong><br><em>1. REDSPY: Exploring Value Locality in Software</em><br>这篇文章是威廉玛丽学院一位博士的美女学姐<a href="http://www.cs.wm.edu/~swen/" target="_blank" rel="external">Shasha Wen</a>的作品，学姐真是长得相当高挑。文章应该是和惠普公司合作的。之前倒是没读到过她的倒是的作品，过于高深，估计以我的智商看不懂，下面我就胡言乱语说说这篇论文内容吧。<br>这篇文章最重要的干线时提出了RedSpy，一听这个名字就感觉狠屌，红色侦探，可以找出近似计算中那些冗余的数据和指令，从而提升执行复杂代码的性能。</p>
+<p>简单来说，RedSpy利用Intel pin指令跟踪内存中每个位置的数据并且价差新生成的数据是否和内存中已有数据相同；对于先后执行指令的相关数据， RedSpy检查先后数据是否一致，如果一直，则把数据标记为冗余；对于空间差异的数据，则将数据放进一个数组，在对应作比较。<br>总之，我对这方面的知识了解甚微，请感兴趣的朋友自己读原文。<a href="\.\pdf\p47.pdf"><strong>pdf</strong></a></p>
+<p><em>2. Translation-Triggered Prefetching</em><br>作者<a href="https://www.cs.rutgers.edu/~abhib/" target="_blank" rel="external">Abhishek Bhattacharjee</a>是罗格斯大学的一名助理教授，厉害的word老师，一个人完成了这篇文章。去年ISCA <a href="http://www.danielwong.org/" target="_blank" rel="external">Daniel Wong</a>似乎也是单人完成了一篇文章。 <a href="\.\pdf\p63.pdf"><strong>pdf</strong></a></p>
+<p><em>3. Typed Architectures: Architectural Support for Lightweight Scripting</em></p>
 
         </div>
         <footer class="article-footer">
@@ -183,7 +178,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2017/04/14/Asplos2017-day1/" data-id="cj1hno9jh000xdodjrlim0lsl" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2017/04/14/Asplos2017-day1/" data-id="cj1ngrb0e000zicdj38dmi49n" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
