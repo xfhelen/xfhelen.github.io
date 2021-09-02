@@ -8,16 +8,10 @@ nav: true
 ---
 
 <div class="publications">
-  <p>Conference Papers</p>
+
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f conf_papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-<p>Journal Papers</p>
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f journal_papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
