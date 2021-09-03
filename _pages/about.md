@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems (ACCESS)</a>. # Address. Contacts. Moto. Etc.
+description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">ACCESS</a>.<a href="https://hkust.edu.hk/">HKUST. Hong Kong Science Park. Tai Po. Hong Kong.
 
 profile:
   align: right
