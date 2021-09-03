@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems</a> . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>
-Hong Kong Science Park . Tai Po . Hong Kong.
+description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems</a> . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Tai Po . Hong Kong.
 
 profile:
   align: right
@@ -16,6 +15,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
 I am currently a Post-doctoral Fellow in <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems (ACCESS)</a>. At ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Tim CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University, supervised by  <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a>. I earned my BS degree from Dalian University of Technology.
 
 **My research interests include**:
