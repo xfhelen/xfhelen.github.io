@@ -2,7 +2,7 @@
 layout: page
 title: Power-/Energy-related Attacks
 description: a project with a background image
-img: /assets/img/12.jpg
+img: /assets/img/50.jpg
 importance: 1
 category: Data Center
 ---
