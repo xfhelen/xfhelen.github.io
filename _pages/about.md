@@ -1,8 +1,9 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">ACCESS</a>.<a href="https://hkust.edu.hk/">HKUST. Hong Kong Science Park. Tai Po. Hong Kong.
+description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems</a>.<a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>.   
+Hong Kong Science Park. Tai Po. Hong Kong.
 
 profile:
   align: right
