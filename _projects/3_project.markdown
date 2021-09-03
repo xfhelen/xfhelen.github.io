@@ -20,7 +20,7 @@ Although conventional power optimization frameworks excel at managing power peak
     </div>
 </div>
 <div class="caption">
-    Power-oriented attacks: On the left, Elusive Power Peak (EPP) attack implements a three-phase attacking model. Middle, Power Grab (PG) refers to an adversary that manipulates its load and abuses power resources to impact the service quality of the collocated normal workloads. On the right, Denial of Power and Energy (DOPE) is a new type of threat which overwhelms the power management system of data centers by sending selective tracs from external network.
+    Power-oriented attacks: On the left, Elusive Power Peak (EPP). Middle, Power Grab (PG). On the right, Denial of Power and Energy (DOPE).
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
