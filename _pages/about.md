@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   motto: >
-    <p>静水流深</p>
+    <p>Still waters run deep.</p>
 
 
 news: true  # includes a list of news items
