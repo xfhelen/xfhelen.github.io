@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: I am fortunate to work with the following excellent students:
 nav: true
 ---
