@@ -2,10 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I am fortunate to work with the following excellent students:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+**Yiming Zhuansun** (Undergraduate at Shanghai Jiao Tong University), present
+**Xuehan Tang** (Undergraduate at Shanghai Jiao Tong University), present
+**Jiacheng Liu** (Ph.D. Candidate at Shanghai Jiao Tong University), 2020
+**Xinkai Wang** (Undergraduate at Shanghai Jiao Tong University), 2020
+**Linqi Chen** (Undergraduate at Shanghai Jiao Tong University), 2019
+**Mingyu Liang** (Ph.D. Candidate at Cornell University), 2019
+**Luoyao Hao** (Ph.D. Candidate at Columbia University), 2018
+**Yu Qiu** (Sta at Alibaba Group), 2018
+**Jinghang Yang** (Master Student at Boston University), 2017
