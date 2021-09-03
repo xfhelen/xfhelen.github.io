@@ -20,7 +20,7 @@ Although conventional power optimization frameworks excel at managing power peak
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Power-oriented attacks: On the left, Elusive Power Peak (EPP). Middle, Power Grab (PG). On the right, Denial of Power and Energy (DOPE).
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 description: <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">AI Chip Center for Emerging Smart Systems</a> . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Tai Po . Hong Kong.
 
