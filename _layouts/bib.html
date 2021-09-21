@@ -12,20 +12,19 @@
         {% endif %}
       {% endif %}
     </div>
-    <!-- <div class="awd">
-      {% if entry.awd %}
-        {% if site.data.venues[entry.awd] %}
-        <awd class="badge"><a href="{{site.data.venues[entry.awd].url}}" target="_blank">{{entry.awd}}</a></awd>
-        {% else %}
-        <awd class="badge">{{entry.awd}}</awd>
-        {% endif %}
-      {% endif %}
-    </div> -->
     <div class="awd">
       {% if entry.awd %}
-      <!-- <span class="badge">{{entry.awd}}</span> -->
-      <span class="label label-info">{{entry.awd}}</span>
+        {% if site.data.venues[entry.awd] %}
+        <awd class="badge font-weight-bold light-blue darken-1 align-middle"><a href="{{site.data.venues[entry.awd].url}}" target="_blank">{{entry.awd}}</a></awd>
+        {% else %}
+        <awd class="badge font-weight-bold light-blue darken-1 align-middle">{{entry.awd}}</awd>
+        {% endif %}
+      {% endif %}
     </div>
+    <!-- <div class="awd">
+      {% if entry.awd %}
+      <span class="label label-info">{{entry.awd}}</span>
+    </div> -->
   </div>
 
 
