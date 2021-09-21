@@ -3,8 +3,8 @@ layout: page
 title: Unleashing the Energy-Saving Potential of Microservices
 description: a project with no image
 img: /assets/img/m1.jpg
-importance: 4
-category: AI&IoT
+importance: 2
+category: Data Center
 ---
 
 With ever-growing workloads in the cloud, it is critical to reinforce the capacity of APDC to meet the scale-out, emerging applications. Particularly, container and container orchestration have recently catalyzed the shift from monolithic applications to massive heterogeneous and loosely-connected microservices. This enables more scalability potentials at a ner-grained granularity. Meanwhile, this also requires us to re-think the challenges of accommodating convectional power management to microservice's features in APDCs.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Power-/Energy-related Attacks
+title: Power Design Space Exploration for AI-IoT Devices
 description: a project with a background image
 img: /assets/img/aiot0.jpg
-importance: 1
-category: Data Center
+importance: 2
+category: AI&IoT
 ---
 In recent years, edge inference has experienced phenomenal growth due to its advantages such as improved accuracy. Meanwhile, AIoT devices integrated with specialized accelerators have further contributed to this growth. Nevertheless, power management (PM) can be a major design hurdle in these AIoT devices. The key reason is that conventional PM techniques suffer from significant power efficiency losses when converting harvested power to the multiple power levels required by inference tasks. Therefore, it is critical to exploit cost-effective power management for AIoT devices. 
 

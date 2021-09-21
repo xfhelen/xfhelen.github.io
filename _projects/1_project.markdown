@@ -3,7 +3,7 @@ layout: page
 title: Power-/Energy-related Attacks
 description: a project with a background image
 img: /assets/img/50.jpg
-importance: 1
+importance: 2
 category: Data Center
 ---
 Although conventional power optimization frameworks excel at managing power peaks incurred by normal users, they would fail to face abnormal attackers. This vulnerability exposes data centers to a new series of risks that we call power-related attacks. We have illustrated that it is feasible for adverse attackers to impact existing power budget management framework and disrupt normal operation by controlling the internal servers and VMs as well as sending malicious requests from the external Internet.
