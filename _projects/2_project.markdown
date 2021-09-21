@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Unleashing the Energy-Saving Potential of Microservices
-description: a project with no image
 img: /assets/img/m1.jpg
 importance: 2
 category: Data Center

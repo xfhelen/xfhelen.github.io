@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Power Design Space Exploration for AI-IoT Devices
-description: a project with a background image
 img: /assets/img/aiot0.jpg
 importance: 2
 category: AI&IoT
