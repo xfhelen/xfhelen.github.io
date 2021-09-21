@@ -2,15 +2,27 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
-  {% endif %}
+  <div class="col-sm-2">
+    <div class="abbr">
+      {% if entry.abbr %}
+        {% if site.data.venues[entry.abbr] %}
+        <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+        {% else %}
+        <abbr class="badge">{{entry.abbr}}</abbr>
+        {% endif %}
+      {% endif %}
+    </div>
+    <div class="awd">
+      {% if entry.awd %}
+        {% if site.data.venues[entry.awd] %}
+        <awd class="badge"><a href="{{site.data.venues[entry.awd].url}}" target="_blank">{{entry.awd}}</a></awd>
+        {% else %}
+        <awd class="badge">{{entry.awd}}</awd>
+        {% endif %}
+      {% endif %}
+    </div>
   </div>
+
 
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
