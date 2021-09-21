@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /mentoring/
-title: mentoring
+title: Mentoring
 description: I am fortunate to work with the following excellent students.
 nav: true
 ---
