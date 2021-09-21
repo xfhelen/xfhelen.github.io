@@ -12,7 +12,7 @@
         {% endif %}
       {% endif %}
     </div>
-    <div class="awd">
+    <!-- <div class="awd">
       {% if entry.awd %}
         {% if site.data.venues[entry.awd] %}
         <awd class="badge"><a href="{{site.data.venues[entry.awd].url}}" target="_blank">{{entry.awd}}</a></awd>
@@ -20,6 +20,10 @@
         <awd class="badge">{{entry.awd}}</awd>
         {% endif %}
       {% endif %}
+    </div> -->
+    <div class="awd">
+      {% if entry.abbr %}
+      <span class="badge">{{entry.awd}}</span>
     </div>
   </div>
 
