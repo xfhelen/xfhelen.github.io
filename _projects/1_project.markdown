@@ -5,7 +5,7 @@ img: /assets/img/50.jpg
 importance: 2
 category: Data Center
 ---
-Although conventional power optimization frameworks excel at managing power peaks incurred by normal users, they would fail to face abnormal attackers. This vulnerability exposes data centers to a new series of risks that we call power-related attacks. We have illustrated that it is feasible for adverse attackers to impact existing power budget management framework and disrupt normal operation by controlling the internal servers and VMs as well as sending malicious requests from the external Internet.
+Although conventional power optimization frameworks excel at managing power peaks incurred by normal users, they would fail to face abnormal attackers. This vulnerability exposes data centers to a new series of risks that we call power-related attacks. We have illustrated that it is feasible for adverse attackers to impact existing power budget management framework and disrupt normal operation by controlling the internal servers and VMs as well as sending malicious requests from an external internet.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,7 +19,10 @@ Although conventional power optimization frameworks excel at managing power peak
     </div>
 </div>
 <div class="caption">
-    Power-oriented attacks: On the left, Elusive Power Peak (EPP) attack implements a three-phase attacking model. Middle, Power Grab (PG) refers to an adversary that manipulates its load and abuses power resources to impact the service quality of the collocated normal workloads. On the right, Denial of Power and Energy (DOPE) is a new type of threat which overwhelms the power management system of data centers by sending selective tracs from external network.
+    Like DDoS, server power attack could become a grave threat to aggressively provisioned data centers: On the left, Elusive Power Peak (EPP) attack is a server/VM-based power attack from inside, which often implements a three-phase attacking model. In the middle, conventioanl Denial-of-Service (DoS) attackers cripple the targeted online service by sending massive requests through the Internet. On the right, Denial of Power and Energy (DOPE) attack is a new type of threat which overwhelms the power management system of data centers by sending selective traces from an external network.
+
+
+
 </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -30,4 +33,4 @@ Although conventional power optimization frameworks excel at managing power peak
     Cross-layer power management for highly-availabile and highly-scalable data centers.
 </div>
 
-These power-oriented attack impel us to think about how APDC can maintain their benets in a potentially insecure operating environment. To defend against power-related attacks, I propose to optimize traditional power management frameworks with cross-layer designs such as coordinating the network balancer and power manager to prevent the DOPE.
+These power-oriented attacks impel us to think about how APDCs can maintain their benefits in a potentially insecure operating environment. To defend against power-related attacks, I propose to optimize traditional power management frameworks with cross-layer designs, such as orchestrating network balancers and power managers to prevent DOPE attack.
