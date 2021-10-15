@@ -10,7 +10,16 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
   {% endif %}
+
+  {% if entry.awd %}
+    {% if site.data.venues[entry.awd] %}
+    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.awd}}</a></abbr>
+    {% else %}
+    <abbr class="badge">{{entry.awd}}</abbr>
+    {% endif %}
+  {% endif %}
   </div>
+  
 
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
