@@ -19,7 +19,7 @@ With ever-growing workloads in the cloud, it is critical to reinforce the capaci
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m1.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m1-0.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">

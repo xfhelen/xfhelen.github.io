@@ -23,7 +23,7 @@ Although conventional power optimization frameworks excel at managing power peak
 </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/50.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/50-0.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
