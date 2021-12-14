@@ -22,7 +22,7 @@ I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Syste
 
 My primary research areas include chip implementation, architecture design and system optimization to improve energy efficiency of different-size computing systems including IoT devices, cloud servers, etc. 
 
-My broader interests include emerging technologies and evolving applications that could ultimately lead to the next-generation green computers.
+My broader interests include emerging technologies that could ultimately lead to the next-generation green computers.
 
 <!-- to design and implement next-genegration, green computers. -->
 <!-- also include emerging technologies and evolving applications that could ultimately shape the next-generation computers. -->
