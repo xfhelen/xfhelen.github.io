@@ -5,7 +5,7 @@ img: /assets/img/multimodal0.jpg
 importance: 2
 category: AI&IoT
 ---
-Multi-modal neural networks have become increasingly pervasive in many machine learning application domains due to their superior accuracy by fusing various modalities. However, they present many unique characteristics such as multi-stage execution, frequent synchronization and high heterogeneity, which are not well understood in the system and architecture community. In this paper, we first present and characterize a set of multi-modal neural network workloads of different sizes at inference stage. We then explore their important implications from system and architecture aspects. We hope that our work can help guide future software/hardware
+Multi-modal neural networks have become increasingly pervasive in many machine learning application domains due to their superior accuracy by fusing various modalities. However, they present many unique characteristics such as multi-stage execution, frequent synchronization and high heterogeneity, which are not well understood in the system and architecture community. In this project, we aim to present and characterize a set of multi-modal neural network workloads of different sizes at inference stage. We also target on exploring their important implications from system and architecture aspects. We hope that our work can help guide future software/hardware
 design and optimization for efficient inference of multi-modal DNN applications.
 
 <!-- <div class="row">

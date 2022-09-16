@@ -9,8 +9,8 @@ nav: true
 **Cheng Xu** (Master Student at Shanghai Jiaotong University), present  
 **Lingyu Sun** (Master Student at Shanghai Jiaotong University), present  
 **Tongqiao Xu** (Undergraduate at Fudan  University), present  
-**Yiming Zhuansun** (Undergraduate at Shanghai Jiao Tong University), present  
-**Xuehan Tang** (Undergraduate at Shanghai Jiao Tong University), present  
+**Yiming Zhuansun** (Undergraduate at Shanghai Jiao Tong University), 2021  
+**Xuehan Tang** (Undergraduate at Shanghai Jiao Tong University), 2021  
 **Jiacheng Liu** (Ph.D. Candidate at Shanghai Jiao Tong University), 2020  
 **Xinkai Wang** (Undergraduate at Shanghai Jiao Tong University), 2020  
 **Linqi Chen** (Undergraduate at Shanghai Jiao Tong University), 2019  
