@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: AI Chip Center for Emerging Smart Systems . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Pak Shek Kok . Hong Kong.
+# description: AI Chip Center for Emerging Smart Systems . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Pak Shek Kok . Hong Kong.
 
 # <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">
 
@@ -18,9 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS). In ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Tim Kwang-Ting CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University, supervised by  <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a>. I earned my BS degree from Dalian University of Technology. (with honors).
+I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS). In ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Tim Kwang-Ting CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University, supervised by  <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a>. I earned my BS degree from Dalian University of Technology (with honors).
 
-My primary research areas include architecture/system optimization techniques for improving performance and energy efficiency of different-size computing systems including IoT devices, cloud servers, etc. 
+My primary research areas include architecture/system optimization techniques to provide the optimal tradeoff between performance (e.g., latency, accuracy, QoS, etc.) and energy efficiency for computing systems of different sizes including IoT devices, cloud servers, etc. 
+
 
 My broader interests include: power and energy management, smart architecture/systems, sustainable architectural designs, carbon neutrality, etc.
 
