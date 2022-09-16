@@ -23,7 +23,7 @@ I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Syste
 My primary research areas include architecture/system optimization techniques to provide the optimal tradeoff between performance (e.g., latency, accuracy, QoS, etc.) and energy efficiency for computing systems of different sizes including IoT devices, cloud servers, etc. 
 
 
-My broader interests include: power/energy management, smart architecture/systems, sustainable architectural designs, carbon neutrality, etc.
+My broader research interests include: power/energy management, smart architectures/systems, sustainable computing platforms, carbon neutrality, etc.
 
 <!-- to design and implement next-genegration, green computers. -->
 <!-- also include emerging technologies and evolving applications that could ultimately shape the next-generation computers. -->
