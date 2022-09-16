@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Power Design Space Exploration for AI-IoT Devices
+title: Autonomous Power Delivery and Management Systems for AIoT Devices
 img: /assets/img/aiot0.jpg
 importance: 2
 category: AI&IoT
 ---
-In recent years, edge inference has experienced phenomenal growth due to its advantages such as improved accuracy. Meanwhile, AIoT devices integrated with specialized accelerators have further contributed to this growth. Nevertheless, power management (PM) can be a major design hurdle in these AIoT devices. One of the key reasons is that conventional PM techniques suffer from significant power efficiency losses when converting harvested power to the multiple power levels required by inference tasks. Therefore, it is critical to exploit cost-effective power distribution and management systems for AIoT devices. 
+In recent years, edge inference has experienced phenomenal growth due to its advantages such as improved accuracy. Meanwhile, AIoT devices integrated with specialized accelerators have further contributed to this growth. Nevertheless, power management (PM) can be a major design hurdle in these AIoT devices. One of the key reasons is that conventional PM techniques suffer from significant power efficiency losses when converting harvested power to the multiple power levels required by inference tasks. Therefore, it is critical to exploit cost-effective power delivery and management systems for AIoT devices. 
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
