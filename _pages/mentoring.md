@@ -6,6 +6,8 @@ description: I am fortunate to work with the following excellent students.
 nav: true
 ---
 
+**Cheng Xu** (Master Student at Shanghai Jiaotong University), present  
+**Lingyu Sun** (Master Student at Shanghai Jiaotong University), present  
 **Tongqiao Xu** (Undergraduate at Fudan  University), present  
 **Yiming Zhuansun** (Undergraduate at Shanghai Jiao Tong University), present  
 **Xuehan Tang** (Undergraduate at Shanghai Jiao Tong University), present  
