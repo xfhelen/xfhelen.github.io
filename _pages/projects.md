@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 nav: true
-display_categories: [AI&IoT, Data Center]
+display_categories: [Application Characterization Methods, System Optimization Techniques, Infrastructure Reconfiguration Mechanisms]
 horizontal: false
 ---
 <div class="projects">
