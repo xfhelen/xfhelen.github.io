@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Autonomous Power Delivery and Management Systems for AIoT Devices
+title: Automated System Designer
 img: /assets/img/aiot0.jpg
 importance: 2
 category: System Optimization Techniques
 ---
-In recent years, edge inference has experienced phenomenal growth due to its advantages such as improved accuracy. Meanwhile, AIoT devices integrated with specialized accelerators have further contributed to this growth. Nevertheless, power management (PM) can be a major design hurdle in these AIoT devices. One of the key reasons is that conventional PM techniques suffer from significant power efficiency losses when converting harvested power to the multiple power levels required by inference tasks. Therefore, it is critical to exploit cost-effective power delivery and management systems for AIoT devices. 
-
+Automated system designers that can adapt to the workload complexity and infrastructure heterogeneity of smart data centers are increasingly critical. We explore the use of artificial intelligence technologies for autonomous system management. We propose to implement two main levels of autonomous management. The first one is to use automated search methods to enable efficient mapping of neural network operations to heterogeneous platforms. The other is to implement automatic assembly and management of hardware.
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
