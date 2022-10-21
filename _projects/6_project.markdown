@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flexible Heterogeneous Architecture Reconfiguration
+title: Flexible Hardware Reconfig.
 img: /assets/img/sensing_com_hybrid.jpg
 importance: 2
 category: Infrastructure Reconfiguration Mechanisms
