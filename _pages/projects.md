@@ -8,7 +8,7 @@ display_categories: [Application Characterization Methods, System Optimization T
 horizontal: false
 ---
 
-***Background and Motivation**
+**Background and Motivation**
 
 Intelligent datacenters are indispensable infrastructures in the global digital transformation process. In constrast to traditional datacenters that primarily run model-based workloads such as Hadoop, Map-Reduce, etc., intelligent datacenters put an emphasis on deploying and implementing computing systems and infrastructures for emerging "data-centric" tasks such as neural networks. Therefore, intelligent datacenters often run more complex big data models and artificial intelligence applications. Meanwhile, they incorporate a large number of dedicated and heterogeneous infrastructures for sensing and computing explosive data streams. 
 
