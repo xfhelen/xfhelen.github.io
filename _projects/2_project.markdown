@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multi-staged Microservice Application
+title: Dedicated Profile of Multi-staged Microservice Application
 img: /assets/img/microservice.jpg
 importance: 2
 category: Application Characterization Methods

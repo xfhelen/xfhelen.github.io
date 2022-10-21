@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automated System Designer
+title: Automated System for Heterogeneous Resource Management
 img: /assets/img/aiot0.jpg
 importance: 2
 category: System Optimization Techniques

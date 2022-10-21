@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cross-stack Power Anomalies 
+title: Reliabe System for Handling Power Anomalies
 img: /assets/img/50.jpg
 importance: 2
 category: System Optimization Techniques

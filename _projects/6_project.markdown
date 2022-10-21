@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Heterogeneous Intelligence Datacenter Facility 
+title: Flexible Heterogeneous Architecture Reconfiguration
 img: /assets/img/sensing_com_hybrid.jpg
 importance: 2
 category: Infrastructure Reconfiguration Mechanisms
