@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-description: **Deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization**
+description: Deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization
 permalink: /projects/
 nav: true
 display_categories: [Application Characterization Methods, System Optimization Techniques, Infrastructure Reconfiguration Mechanisms]
