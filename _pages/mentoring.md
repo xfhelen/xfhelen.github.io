@@ -9,8 +9,8 @@ nav: true
 **Cheng Xu** (Master Student at Shanghai Jiaotong University), present  
 **Lingyu Sun** (Master Student at Shanghai Jiaotong University), present  
 **Tongqiao Xu** (Undergraduate at Fudan  University), present   
-**Xuehan Tang** (Master Student at EPFL), 2022
-**Jiacheng Liu** (Postdoctoral Fellow at The Chinese University of Hong Kong), 2022
+**Xuehan Tang** (Master Student at EPFL), 2022   
+**Jiacheng Liu** (Postdoctoral Fellow at The Chinese University of Hong Kong), 2022   
 **Yiming Zhuansun** (Undergraduate at Shanghai Jiao Tong University), 2021   
 **Xinkai Wang** ((Ph.D. Candidate at Shanghai Jiao Tong University), 2020  
 **Linqi Chen** (Undergraduate at Shanghai Jiao Tong University), 2019  
