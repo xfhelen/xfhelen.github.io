@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Power-/Energy-oriented Attacks
+title: Multi-modal DNN Applications
 img: /assets/img/50.jpg
 importance: 2
-category: Data Center
+category: Application Characterization Methods
 ---
-Although conventional power optimization frameworks excel at managing power peaks incurred by normal users, they would fail to face abnormal attackers. This vulnerability exposes data centers to a new series of risks that we call power-oriented attacks. We have illustrated that it is feasible for adverse attackers to impact existing power budget management framework and disrupt normal operation by controlling the internal servers and VMs as well as sending malicious requests from an external internet.
+Multi-modal neural networks have become increasingly pervasive in today's AI application domains due to their superior accuracy by fusing various modalities. However, they present many unique characteristics such as multi-stage execution, frequent synchronization and high heterogeneity, which are not well understood in the system and architecture community. In this project, we aim to present and characterize a set of multi-modal neural network workloads of different sizes at inference stage. We also target on exploring their important implications from system and architecture aspects. We hope that our work can help guide future software/hardware
+design and optimization for efficient inference of multi-modal DNN applications.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
@@ -18,19 +19,18 @@ Although conventional power optimization frameworks excel at managing power peak
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-<div class="caption">
-    Like DDoS, server power-oriented attack could become a grave threat to aggressively provisioned data centers: On the left, Elusive Power Peak (EPP) attack is a server/VM-based power attack from inside, which often implements a three-phase attacking model. In the middle, conventioanl Denial-of-Service (DoS) attack cripples the targeted online service by sending massive requests through the Internet. On the right, Denial of Power and Energy (DOPE) attack is a new type of threat which overwhelms the power management system of data centers by sending selective traces from an external network.
+<div class="caption"> -->
 
 
 
-</div>
+<!-- </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/50-0.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mmbench.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Cross-layer power management for highly-availabile and highly-scalable data centers.
+    Profile pipeline in MMbench.
 </div>
 
-These power-oriented attacks impel us to think about how APDCs can maintain their benefits in a potentially insecure operating environment. To defend against power-oriented attacks, I propose to optimize traditional power management frameworks with cross-layer designs, such as orchestrating network balancers and power managers to prevent DOPE attack.
+These power-oriented attacks impel us to think about how APDCs can maintain their benefits in a potentially insecure operating environment. To defend against power-oriented attacks, I propose to optimize traditional power management frameworks with cross-layer designs, such as orchestrating network balancers and power managers to prevent DOPE attack. -->

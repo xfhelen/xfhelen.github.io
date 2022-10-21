@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Autonomous Power Delivery and Management Systems for AIoT Devices
-img: /assets/img/aiot0.jpg
+title: Architecture and System Optimization Techniques for Edge Multi-modal AI Computing Centers
+img: /assets/img/multimodal0.jpg
 importance: 2
-category: System Optimization Techniques
+category: AI&IoT
 ---
-In recent years, edge inference has experienced phenomenal growth due to its advantages such as improved accuracy. Meanwhile, AIoT devices integrated with specialized accelerators have further contributed to this growth. Nevertheless, power management (PM) can be a major design hurdle in these AIoT devices. One of the key reasons is that conventional PM techniques suffer from significant power efficiency losses when converting harvested power to the multiple power levels required by inference tasks. Therefore, it is critical to exploit cost-effective power delivery and management systems for AIoT devices. 
+Multi-modal neural networks have become increasingly pervasive in today's AI application domains due to their superior accuracy by fusing various modalities. However, they present many unique characteristics such as multi-stage execution, frequent synchronization and high heterogeneity, which are not well understood in the system and architecture community. In this project, we aim to present and characterize a set of multi-modal neural network workloads of different sizes at inference stage. We also target on exploring their important implications from system and architecture aspects. We hope that our work can help guide future software/hardware
+design and optimization for efficient inference of multi-modal DNN applications.
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">

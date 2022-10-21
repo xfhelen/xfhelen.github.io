@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Cross-stack Power Anomalies 
-img: /assets/img/multimodal0.jpg
+title: Power-/Energy-oriented Attacks
+img: /assets/img/50.jpg
 importance: 2
-category: System Optimization Techniques
+category: Data Center
 ---
 Although conventional power optimization frameworks excel at managing power peaks incurred by normal users, they would fail to face abnormal attackers. This vulnerability exposes data centers to a new series of risks that we call power-oriented attacks. We have illustrated that it is feasible for adverse attackers to impact existing power budget management framework and disrupt normal operation by controlling the internal servers and VMs as well as sending malicious requests from an external internet.
 

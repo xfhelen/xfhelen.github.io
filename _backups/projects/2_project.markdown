@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Multi-staged Microservice Application
+title: Unleashing the Energy-Saving Potential of Microservices
 img: /assets/img/m1.jpg
 importance: 2
-category: Application Characterization Methods
+category: Data Center
 ---
 
 With ever-growing workloads in the cloud, it is critical to reinforce the capacity of APDCs to meet the scale-out, emerging applications. Particularly, container and container orchestration have recently catalyzed the shift from monolithic applications to massive heterogeneous and loosely-connected microservices. This enables more scalability potentials at a microsecond-level granularity. Meanwhile, this also requires us to re-think the challenges of accommodating convectional power management to microservice's features in APDCs.
