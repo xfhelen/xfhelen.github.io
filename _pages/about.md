@@ -30,7 +30,7 @@ My primary research interest is in designing and implementing cross-layer optimi
 
 My broader interests include power and energy management, AI infrastructures, autonomous architecture and system designs, sustainable computing, carbon neutrality, etc. 
 
-**I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization.**
+**I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.**
 
 <!-- to design and implement next-genegration, green computers. -->
 <!-- also include emerging technologies and evolving applications that could ultimately shape the next-generation computers. -->
