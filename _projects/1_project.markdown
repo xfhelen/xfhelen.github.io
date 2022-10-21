@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multi-modal Neural Network Applications
+title: Multi-modal ML&AI Applications
 img: /assets/img/multimodal0.jpg
 importance: 2
 category: Application Characterization Methods
