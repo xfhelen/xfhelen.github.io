@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-staged Microservice Application
-img: /assets/img/m1.jpg
+img: /assets/img/microservice.jpg
 importance: 2
 category: Application Characterization Methods
 ---
@@ -14,7 +14,9 @@ With ever-growing workloads in the cloud, it is critical to reinforce the capaci
     </div>
 </div>
 <div class="caption">
-    One of the challenges is to match server-level power budget variation to fine-grained microservice heterogeneity.
+
+One of the challenges is to match server-level power budget variation to fine-grained microservice heterogeneity.
+
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,7 +24,8 @@ With ever-growing workloads in the cloud, it is critical to reinforce the capaci
     </div>
 </div>
 <div class="caption">
-    Current power management frameworks involve hundreds of milliseconds or even seconds of control latency, making it difficult to make informed power allocation decisions for microsecond-level microservices.
+
+Current power management frameworks involve hundreds of milliseconds or even seconds of control latency, making it difficult to make informed power allocation decisions for microsecond-level microservices.
 
 
 </div>

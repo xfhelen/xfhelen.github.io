@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cross-stack Power Anomalies 
-img: /assets/img/multimodal0.jpg
+img: /assets/img/50.jpg
 importance: 2
 category: System Optimization Techniques
 ---

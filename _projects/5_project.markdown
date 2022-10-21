@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hybrid Energy Backup Architecture 
-img: /assets/img/multimodal0.jpg
+img: /assets/img/IPAD_arch.JPG
 importance: 2
 category: Infrastructure Reconfiguration Mechanisms
 ---
@@ -10,7 +10,7 @@ Energy storage devices (e.g., batteries) are critical components for high-availa
 </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/EPP_Attack.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/EPP_Attack.JPG' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
@@ -22,7 +22,7 @@ Our IPAD design creates a hybrid energy backup pool for managing complex power a
 </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/50-0.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/IPAD_arch.JPG' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">

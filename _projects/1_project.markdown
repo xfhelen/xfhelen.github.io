@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multi-modal DNN Applications
-img: /assets/img/50.jpg
+title: Multi-modal Neural Network Applications
+img: /assets/img/multimodal0.jpg
 importance: 2
 category: Application Characterization Methods
 ---
