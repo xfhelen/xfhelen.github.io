@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS). In ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a> and <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a>. I earned my BS degree from Dalian University of Technology (with honors).
+> I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS). In ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a> and <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a>. I earned my BS degree from Dalian University of Technology (with honors).
 
 <!-- My primary research areas include architecture/system optimization techniques to provide the optimal tradeoff between performance (e.g., latency, accuracy, QoS, etc.) and energy efficiency for computing systems of different sizes including IoT devices, cloud servers, etc. 
 
@@ -26,11 +26,11 @@ I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Syste
 My broader research interests include: power/energy management, smart architectures/systems, sustainable computing platforms, available/scalable infrastructures, carbon neutrality, etc. -->
 
 
-My primary research interest is in designing and implementing cross-layer optimization techniques for improving the energy efficiency of computing systems of different sizes, ranging from AIoT sensors to cloud servers. 
+> My primary research interest is in designing and implementing cross-layer optimization techniques for improving the energy efficiency of computing systems of different sizes, ranging from AIoT sensors to cloud servers. 
 
-My broader interests include power and energy management, AI infrastructures, autonomous architecture and system designs, sustainable computing, carbon neutrality, etc. 
+> My broader interests include power and energy management, AI infrastructures, autonomous architecture and system designs, sustainable computing, carbon neutrality, etc. 
 
-**I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.**
+> **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.**
 
 <!-- to design and implement next-genegration, green computers. -->
 <!-- also include emerging technologies and evolving applications that could ultimately shape the next-generation computers. -->
