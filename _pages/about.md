@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 # description: AI Chip Center for Emerging Smart Systems . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Pak Shek Kok . Hong Kong.
 
