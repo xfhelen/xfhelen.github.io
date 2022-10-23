@@ -11,26 +11,27 @@ nav: true
 3. Awrads
  -->
 
-# Current Students
-> **Cheng Xu** (Master Student at Shanghai Jiaotong University), *GPU-based multi-modal DNN acceleration*, May, 2022~present
+## Current Students
+> **Cheng Xu** (Master Student at Shanghai Jiaotong University), *GPU-based multi-modal DNN acceleration*, May 2022 ~ present, co-advising with Prof. Chao Li.
 > > Publications: 
 - - X Hou*, C Xu*, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 > > Tools:
 - - MMBench
 
 
-> **Lingyu Sun** (Master Student at Shanghai Jiaotong University), *Energy-efficient system for heterogenous multi-modal platforms*, April 2022~present
+> **Lingyu Sun** (Master Student at Shanghai Jiaotong University), *Energy-efficient system for heterogenous multi-modal platforms*, April 2022 ~ present, co-advising with Prof. Chao Li.
 > > Publications: 
 - - X Hou*, C Xu*, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
 
-> **Tongqiao Xu** (Undergraduate at Fudan  University), *PDMS for green multi-modal intelligent center*, February 2022~present
+> **Tongqiao Xu** (Undergraduate at Fudan  University), *PDMS for green multi-modal intelligent center*, February 2022 ~ present, co-advising with Prof. Chao Li.
 > > Awards:
 - - T Xu, D Zhou, Third place of EADthon 2022
  
 
 
-# Alumni
+## Alumni
+> I wish them all the best for their future endeavors.
 - **Xuehan Tang** (Master Student at EPFL), 2022  
 - - X Hou*, C Xu*, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
