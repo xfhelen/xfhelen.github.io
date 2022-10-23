@@ -12,17 +12,22 @@ nav: true
  -->
 
 ### Current Students
-> **Cheng Xu** (co-supervised with Prof. Chao Li, May 2022 ~ present), *GPU-based multi-modal DNN acceleration*. Current position: Master Student at Shanghai Jiaotong University. 
-> > Publications: 
-- - X Hou*, **C Xu***, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
+**Cheng Xu** (co-supervised with Prof. Chao Li, May 2022 ~ present), *GPU-based multi-modal DNN acceleration*. Current position: Master Student at Shanghai Jiaotong University. 
 
-> > Tools:
-- - MMBench[<a href="https://github.com/xfhelen/MMBench">Github Code</a>]: An End-to-End Benchmark Suite and Automated Toolkit for Multi-modal DNN Applications
+Publications: 
+
+- X Hou*, **C Xu***, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
 
-> **Lingyu Sun** (co-supervised with Prof. Chao Li, April 2022 ~ present), *Energy-efficient system for heterogenous multi-modal platforms*. Current position: Master Student at Shanghai Jiaotong University.
-> > Publications: 
-- - X Hou*, C Xu*, J Liu, X Tang, **L Sun**, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
+Tools:
+- MMBench[<a href="https://github.com/xfhelen/MMBench">Github Code</a>]: An End-to-End Benchmark Suite and Automated Toolkit for Multi-modal DNN Applications
+
+
+**Lingyu Sun** (co-supervised with Prof. Chao Li, April 2022 ~ present), *Energy-efficient system for heterogenous multi-modal platforms*. Current position: Master Student at Shanghai Jiaotong University.
+
+Publications: 
+
+X Hou*, C Xu*, J Liu, X Tang, **L Sun**, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
 
 > **Tongqiao Xu** (co-supervised with Prof. Chao Li, February 2022 ~ present), *PDMS for green multi-modal intelligent center*. Current position: Undergraduate at Fudan  University.
