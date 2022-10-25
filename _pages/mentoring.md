@@ -12,7 +12,7 @@ nav: true
  -->
 
 ### Current Students
-***Cheng Xu*** (co-advised with Prof. Chao Li, May 2022 ~ present), *GPU-based multi-modal DNN acceleration*. Current placement: Master Student at Shanghai Jiaotong University. 
+***Cheng Xu*** (co-advised with Prof. Chao Li, May 2022 ~ present)<br>*GPU-based multi-modal DNN acceleration*<br>Current placement: Master Student at Shanghai Jiaotong University. 
 
 Publications: 
 
@@ -23,14 +23,14 @@ Tools:
 - MMBench[<a href="https://github.com/xfhelen/MMBench">Github Code</a>]: An End-to-End Benchmark Suite and Automated Toolkit for Multi-modal DNN Applications
 
 
-***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2022 ~ present), *Energy-efficient system for heterogenous multi-modal platforms*. Current placement: Master Student at Shanghai Jiaotong University.
+***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2022 ~ present)<br>*Energy-efficient system for heterogenous multi-modal platforms* <br>Current placement: Master Student at Shanghai Jiaotong University.
 
 Publications: 
 
 - X Hou*, C Xu*, J Liu, X Tang, **L Sun**, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
 
-***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2022 ~ present), *PDMS for green multi-modal intelligent center*. Current placement: Undergraduate at Fudan  University.
+***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2022 ~ present) <br>*PDMS for green multi-modal intelligent center* <br>Current placement: Undergraduate at Fudan  University.
 
 Awards:
 - **T Xu**, D Zhou, Third place of EADthon 2022
