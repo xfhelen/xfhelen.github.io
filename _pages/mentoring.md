@@ -54,7 +54,7 @@ I wish them all the best for their future endeavors.
 ***Xinkai Wang*** (co-advised with Prof. Chao Li, May 2020 ~ September 2020). <br>Placement: **Ph.D. Candidate at Shanghai Jiao Tong** University. 
 - **X. Wang**, C. Li, L. Zhang, X. Hou, Q. Chen, M. Guo.Exploring Efficient Microservice Level Parallelism. IPDPS, 2022.
 
-***Linqi Chen*** (co-advised with Prof. Chao Li, August 2019 ~ November 2019). Placement: **Undergraduate at Shanghai Jiao Tong University** 
+***Linqi Chen*** (co-advised with Prof. Chao Li, August 2019 ~ November 2019). <br>Placement: **Undergraduate at Shanghai Jiao Tong University** 
 - First Prize of the 2nd SJTU-Wining Health Competition.
 
 ***Mingyu Liang*** (co-advised with Prof. Chao Li, June 2018 ~ September 2019). <br>Placement: **Ph.D. Candidate at Cornell University**
