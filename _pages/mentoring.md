@@ -33,8 +33,7 @@ Publications:
 ***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2022 ~ present) <br>*PDMS for green multi-modal intelligent center* <br>Current placement: Undergraduate at Fudan  University.
 
 Awards:
-- **T Xu**, D Zhou, Third place of EADthon 2022
- 
+- **T Xu**, D Zhou, Third place of EADthon 2022 
 
 
 ### Alumni
