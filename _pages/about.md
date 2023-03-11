@@ -32,11 +32,12 @@ I am an assistant professor in the Department of Computer Science and Engineerin
 
 My broader research interests include: power/energy management, smart architectures/systems, sustainable computing platforms, available/scalable infrastructures, carbon neutrality, etc. -->
 
-
+<!-- 
 My primary research interest is in implementing energy-efficient system and architecture co-design for smart computing platforms of different sizes, ranging from autonomous AIoT sensors to intelligent datacenters. 
 
 
-My broader interests include microscale, hyperscale and hybrid datacenters, power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. 
+My broader interests include microscale, hyperscale and hybrid datacenters, power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc.  -->
+My principal focus of research is centered on the development of efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms include autonomous sensors for the Internet of Things (AIoT) as well as advanced data centers. My research also encompasses a wide range of topics such as power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. Additionally, I am interested in studying microscale, hyperscale, and hybrid data centers to understand their unique energy and computing requirements.
 
 
 **A Message for Prospective Students**
