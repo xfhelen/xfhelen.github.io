@@ -18,7 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS). In ACCESS, I am honored to work with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a>. Prior to joining ACCESS, I received my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors).
+I am an assistant professor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU),  At SJTU, I'm a member of Emerging Parallel Computing Center (EPCC) and Sustainable Architecture and Infrastructure Lab (SAIL). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> in the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors).
+
+ 
+
+<!-- Before joining SJTU, I was a Post-doctoral Fellow in AI Chip Center for Emerging Smart Systems (ACCESS), working with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a>. I received my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors). -->
+
+
+<!-- I am a Full Professor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU). At SJTU, I'm a proud member of Emerging Parallel Computing Center (EPCC) and I direct Sustainable Architecture and Infrastructure Lab (SAIL). Prior to joining SJTU, I earned my PhD degree from the University of Florida and my BS degree from Zhejiang University (with honors). -->
 
 <!-- My primary research areas include architecture/system optimization techniques to provide the optimal tradeoff between performance (e.g., latency, accuracy, QoS, etc.) and energy efficiency for computing systems of different sizes including IoT devices, cloud servers, etc. 
 
@@ -26,13 +33,17 @@ I am currently a Post-doctoral Fellow in AI Chip Center for Emerging Smart Syste
 My broader research interests include: power/energy management, smart architectures/systems, sustainable computing platforms, available/scalable infrastructures, carbon neutrality, etc. -->
 
 
-My primary research interest is in designing and implementing cross-layer optimization techniques for improving the energy efficiency of computing systems of different sizes, ranging from AIoT sensors to cloud servers. 
+My primary research interest is in implementing energy-efficient system and architecture co-design for smart computing platforms of different sizes, ranging from autonomous AIoT sensors to intelligent datacenters. 
+
 
 My broader interests include power and energy management, AI infrastructures, autonomous architecture and system designs, sustainable computing, carbon neutrality, etc. 
 
 
 **A Message for Prospective Students**
-I'm looking for bright and self-motivated students who have a strong interest in computer architecture and system design. I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD).
+
+
+I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design. 
+<!-- I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD). -->
 
 If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [xfhelen (at) gmail.com] along with your CV to arrange an appointment.
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
