@@ -1,19 +1,28 @@
 "Tang":
-  - firstname: ["Xuehan", "Tang"]
+  - firstname: ["Xuehan"]
     url: https://xfhelen.github.io/publications/
 
+"Xu":
+  - firstname: ["Cheng"]
+    url: https://xfhelen.github.io/publications/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wang":
+  - firstname: ["Xinkai"]
+    url: https://xfhelen.github.io/publications/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Hao":
+  - firstname: ["Luoyao"]
+    url: https://xfhelen.github.io/publications/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Liang":
+  - firstname: ["Mingyu"]
+    url: https://xfhelen.github.io/publications/   
+
+"Liu": 
+  - firstname: ["Jiacheng"]
+    url: https://xfhelen.github.io/publications/
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+
