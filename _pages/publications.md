@@ -7,9 +7,7 @@ years: [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 ---
 
-scholar:
-  last_name: [Hou, Xu]
-  first_name: [Xiaofeng, Cheng]
+
 
 <div class="publications">
 
