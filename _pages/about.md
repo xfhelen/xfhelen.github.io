@@ -36,7 +36,7 @@ My broader research interests include: power/energy management, smart architectu
 My primary research interest is in implementing energy-efficient system and architecture co-design for smart computing platforms of different sizes, ranging from autonomous AIoT sensors to intelligent datacenters. 
 
 
-My broader interests include power and energy management, AI infrastructures, autonomous architecture and system designs, sustainable computing, carbon neutrality, etc. 
+My broader interests include microscale, hyperscale and hybrid datacenters, power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. 
 
 
 **A Message for Prospective Students**
