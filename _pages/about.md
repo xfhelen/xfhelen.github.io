@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU),  At SJTU, I'm a member of Emerging Parallel Computing Center (EPCC) and Sustainable Architecture and Infrastructure Lab (SAIL). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> in the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors).
+I am an assistant professor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU).  At SJTU, I'm a member of Emerging Parallel Computing Center (<a href="http://epcc.sjtu.edu.cn/">EPCC</a>) and Sustainable Architecture and Infrastructure Lab (</a href="https://www.cs.sjtu.edu.cn/sail/"SAIL</a>). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> in the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://www.cs.sjtu.edu.cn/~guo-my">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors).
 
  
 
@@ -40,7 +40,7 @@ My broader interests include microscale, hyperscale and hybrid datacenters, powe
 My principal focus of research is centered on the development of efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms include autonomous sensors for the Internet of Things (AIoT) as well as advanced data centers. My research also encompasses a wide range of topics such as power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. Additionally, I am interested in studying microscale, hyperscale, and hybrid data centers to understand their unique energy and computing requirements.
 
 
-**A Message for Prospective Students**
+**A Message for Prospective Students:**
 
 
 I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design. 
