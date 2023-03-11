@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: https://xfhelen.github.io/
+permalink: /
 # description: AI Chip Center for Emerging Smart Systems . <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a> . Hong Kong Science Park . Pak Shek Kok . Hong Kong.
 
 # <a href="https://hkg.databasesets.com/zh-hans/gongsimingdan/number/2927539">
