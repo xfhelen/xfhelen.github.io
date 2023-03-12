@@ -26,7 +26,7 @@ To tackle these challenges and deploy highly-efficient intelligent datacenters, 
 
 <!-- Our project aims to deploy and implement highly energy-efficient intelligent datacenters through cross-layer optimization. Intelligent datacenters have become crucial infrastructures for the global digital transformation process. They are designed to handle complex big data models and AI applications, and incorporate a large number of dedicated and heterogeneous infrastructures for sensing and computing data streams. However, the increased power consumption of these datacenters poses a significant challenge to achieving global carbon neutrality and avoiding catastrophic losses. -->
 
-Deploying and implementing highly energy-efficient intelligent datacenters  is a complex but critical undertaking. We propose several solutions to address the challenges of multi-modal workload, disordered system, and heterogeneous infrastructure, and aim to optimize the energy efficiency of intelligent datacenters at different levels. By implementing the proposed solutions, we hope to contribute towards achieving global carbon neutrality and reducing catastrophic losses caused by high power consumption in intelligent datacenters.
+Deploying and implementing highly energy-efficient intelligent datacenters  is a complex but critical undertaking. We propose several solutions to address the challenges of multi-modal workload, disordered system, and heterogeneous infrastructure, and aim to optimize the energy efficiency of intelligent datacenters at different levels. By this, we hope to contribute towards achieving global carbon neutrality and reducing catastrophic losses caused by high power consumption in intelligent datacenters.
 
 ### Background:
 Traditional datacenters primarily run model-based workloads, such as Map-Reduce, while intelligent datacenters put an emphasis on deploying and implementing computing systems and infrastructures for emerging data-centric tasks, such as neural networks. The complex nature of data-centric workloads and infrastructures has led to low energy efficiency and an inability to meet stringent carbon neutrality mandates.
@@ -36,9 +36,7 @@ Our research analyzes the challenges of energy inefficiency in intelligent datac
 
 ### Solutions:
 To tackle these challenges and deploy highly efficient intelligent datacenters, we propose a range of solutions. Firstly, we suggest a group of multi-modal workload characterization methods that include efficient workload profile models and an application level workload analysis. At the system level, we implement a set of disorder-hidden system optimization techniques to enable multi-modal AI applications to run more efficiently. Finally, we develop a heterogeneous infrastructure management framework that integrates various computing infrastructures and optimizes their energy usage.
-<!-- 
-### Conclusion:
-Deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization is a complex but critical undertaking. Our proposed solutions address the challenges of multi-modal workload, disordered system, and heterogeneous infrastructure, and aim to optimize the energy efficiency of intelligent datacenters at different levels. By implementing our proposed solutions, we hope to contribute towards achieving global carbon neutrality and reducing catastrophic losses caused by high power consumption in intelligent datacenters. -->
+
 
 
 
