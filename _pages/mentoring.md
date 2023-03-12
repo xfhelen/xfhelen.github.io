@@ -41,6 +41,7 @@ I wish them all the best for their future endeavors.
 
 ***Xuehan Tang*** (co-advised with Prof. Chao Li, 2021 ~ 2022).<br>Placement: **Master Student at EPFL**
 - X Hou*, C Xu*, J Liu, **X Tang**, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
+- X Hou*, J Liu, **X Tang**, C Li, J Chen, L Liang, K.T. CHENG, M Guo. Architecting Efficient Multi-modal AIoT Systems. ISCA, 2023
 
 ***Jiacheng Liu*** (co-advised with Prof. Chao Li, 2019 ~ 2021).<br>Placement: **Postdoctoral Fellow at The Chinese University of Hong Kong**
 - X. Hou, C. Li, **J. Liu**, L. Zhang, Y. Hu, M. Guo. ANT-Man: Towards Agile Power Management in the Microservice Era. SC, 2020
