@@ -39,7 +39,8 @@ My primary research interest is in implementing energy-efficient system and arch
 My broader interests include microscale, hyperscale and hybrid datacenters, power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc.  -->
 <!-- My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms include autonomous sensors for the Artificial Intelligence of Things (AIoT) as well as advanced datacenters. My research also encompasses a wide range of topics such as power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. In addition, I am interested in studying microscale, hyperscale, and hybrid datacenters to understand their unique non-computing and computing requirements. -->
 
-My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms range from autonomous embedded devices for Artificial Intelligence of Things (AIoT) to advanced datacenters including microscale, hyperscale, and hybrid datacenters. I am also interested in studying and understanding their unique non-computational and computational requirements. As a result, my research encompasses a wide range of topics such as power and energy management, automated architecture and system design, sustainable computing, carbon neutrality, etc.
+I am working on deploying and implementing efficient and sustainable computer architectures and systems. My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms range from autonomous embedded systems (AES) for Artificial Intelligence of Things (AIoT) to advanced datacenters including microscale, hyperscale, and hybrid datacenters. I am also interested in studying and understanding their unique non-computational and computational requirements. As a result, my research encompasses a wide range of topics such as power and energy management, AI infrastructures, automated architecture and system design, sustainable computing, carbon neutrality, etc.
+
 
 **A Message for Prospective Students:**
 
@@ -47,7 +48,7 @@ My primary research focus is on developing efficient system and architecture co-
 I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design. 
 <!-- I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD). -->
 
-If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [xfhelen (at) gmail.com] along with your CV to arrange an appointment.
+If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [hou-xf (at) ] along with your CV to arrange an appointment.
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
 
 <!-- to design and implement next-genegration, green computers. -->
