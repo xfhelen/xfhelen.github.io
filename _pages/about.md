@@ -48,7 +48,7 @@ I am working on deploying and implementing efficient and sustainable computer ar
 **I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design.**
 <!-- I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD). -->
 
-*If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [hou-xf (at) cs.sjtu.edu.cn] along with your CV to arrange an appointment.*
+***If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [hou-xf (at) cs.sjtu.edu.cn] along with your CV to arrange an appointment.***
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
 
 <!-- to design and implement next-genegration, green computers. -->
