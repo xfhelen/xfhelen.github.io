@@ -63,9 +63,6 @@ I wish them all the best for their future endeavors.
 - **J. Liu**, X. Hou, F. Tang. Fine-Grained Machine Teaching with Attention Modeling. AAAI, 2020
 - X. Hou, **J. Liu**, C. Li, M. Guo. Unleashing the Scalability Potential of Power-Constrained Data Center in the Microservice Era. ICPP, 2019
 
-***Yiming Zhuansun*** (co-advised with Prof. Chao Li, March 2021 ~ October 2021).<br>Placement: **Undergraduate at Shanghai Jiao Tong Universit**
-- Project on microservice-aware datacenter power management
-
 ***Xinkai Wang*** (co-advised with Prof. Chao Li, May 2020 ~ September 2020). <br>Placement: **Ph.D. Candidate at Shanghai Jiao Tong** University. 
 - **X. Wang**, C. Li, L. Zhang, X. Hou, Q. Chen, M. Guo.Exploring Efficient Microservice Level Parallelism. IPDPS, 2022.
 
