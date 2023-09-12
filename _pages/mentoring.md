@@ -45,7 +45,7 @@ Awards:
 
 ***Peng Tang*** (co-advised with Prof. Chao Li, September 2022 ~ present) <br>*Energy-effcient multi-modal sensing and computing systems* <br>Current placement: Master Student at Shanghai Jiaotong University.
 
-***Undergraduate Students***：Xiaozhi Zhu, Tianhao Huang, Xinfeng Xia, Yunwei Li, Tianyu Zang, Mo Niu
+***Undergraduate Students***：**Xiaozhi Zhu, Tianhao Huang, Xinfeng Xia, Yunwei Li, Tianyu Zang, Mo Niu**
 
 Awards:
 - **T Huang, X Zhu, M Niu**, The First Prize of ACM SIGMETRICS SRC (Undergraduate Group)
