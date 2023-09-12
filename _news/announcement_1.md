@@ -5,5 +5,5 @@ inline: true
 ---
 
 Paper *Power Grab in Aggressively Provisioned Data Centers: What is the Risk and What
-Can Be Done About It* received the *Best Paper Award* in ICCD (International Conference on Computer
+Can Be Done About It* received the **Best Paper Award (4/264)** in ICCD (International Conference on Computer
 Design)! Preprint coming soon.

@@ -12,11 +12,19 @@ nav: true
  -->
 
 ### Current Students
-***Cheng Xu*** (co-advised with Prof. Chao Li, May 2022 ~ present)<br>*GPU-based multi-modal DNN acceleration*<br>Current placement: Master Student at Shanghai Jiaotong University. 
+***Xinkai Wang*** (co-advised with Prof. Chao Li, April 2023 ~ present)<br>*Profile and Analysis of datacenter workloads*<br>Current placement: Ph.D. Candidate at Shanghai Jiaotong University. 
+
+- **X Wang***, H He*, Y Li*, C Li, X Hou, J Wang, Q Chen, J Leng, M Guo, L Wang. Not All Resources are Visible: Exploiting Fragmented Shadow  Resources in Shared-State Scheduler Architecture. SoCC, 2023
+
+***Cheng Xu*** (co-advised with Prof. Chao Li, May 2022 ~ present)<br>*Multi-modal computing acceleration and optimization*<br>Current placement: Ph.D. Candidate at Shanghai Jiaotong University. 
 
 Publications: 
 
+- **C Xu**, X Hou, J Liu, C Li, T Huang, X Zhu, M Niu, L Sun, P Tang, T Xu, K.T. Cheng, M Guo. MMBench: Benchmarking End-to-End Multi-modal DNNs and Understanding Their Hardware-Software Implications. IISWC, 2023
+
 - X Hou*, **C Xu***, J Liu, X Tang, L Sun, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
+
+***Jinyang Guo*** (co-advised with Prof. Chao Li, April 2023 ~ present)<br>*Infrastructures, architectures and systems for edge microdatacenters*<br>Current placement: Ph.D. Candidate at Shanghai Jiaotong University. 
 
 
 Tools:
@@ -30,10 +38,17 @@ Publications:
 - X Hou*, C Xu*, J Liu, X Tang, **L Sun**, C Li, K.T. CHENG. Characterizing and Understanding End-to-End Multi-modal Neural Networks on GPUs. CAL, 2022
 
 
-***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2022 ~ present) <br>*PDMS for green multi-modal intelligent center* <br>Current placement: Undergraduate at Fudan  University.
+***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2022 ~ present) <br>*PDMS for green multi-modal intelligent center* <br>Current placement: Master Student at Shanghai Jiaotong University.
 
 Awards:
 - **T Xu**, D Zhou, Third place of EADthon 2022 
+
+***Peng Tang*** (co-advised with Prof. Chao Li, September 2022 ~ present) <br>*Energy-effcient multi-modal sensing and computing systems* <br>Current placement: Master Student at Shanghai Jiaotong University.
+
+***Undergraduate Students***：Xiaozhi Zhu, Tianhao Huang, Xinfeng Xia, Yunwei Li, Tianyu Zang Mo Niu
+
+Awards:
+- **T Huang, X Zhu, M Niu**, The First Prize of ACM SIGMETRICS SRC (Undergraduate Group)
 
 
 ### Alumni
