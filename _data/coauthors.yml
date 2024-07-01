@@ -2,8 +2,8 @@
   - firstname: ["Xuehan"]
     url: https://xfhelen.github.io/publications/
 
-"Xu":
-  - firstname: ["Cheng*"]
+"Xu*":
+  - firstname: ["Cheng"]
     url: https://xfhelen.github.io/publications/
 
 "Xu":
@@ -34,8 +34,8 @@
   - firstname: ["Tongqiao"]
     url: https://xfhelen.github.io/publications/
 
-"Xu": 
-  - firstname: ["Tongqiao*"]
+"Xu*": 
+  - firstname: ["Tongqiao"]
     url: https://xfhelen.github.io/publications/
 
 "Zhu": 
