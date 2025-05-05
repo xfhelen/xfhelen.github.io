@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 title: Projects
@@ -7,6 +8,7 @@ nav: true
 display_categories: [Application Characterization Methods, System Optimization Techniques, Infrastructure Reconfiguration Mechanisms]
 horizontal: false
 ---
+
 
 <!-- ### Background
 
