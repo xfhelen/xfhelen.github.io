@@ -13,45 +13,43 @@ nav: true
 
 ### PhD Students
 
-***Xinkai Wang*** (co-advised with Prof. Chao Li, April 2023 ~ present)
+***Xinkai Wang*** (co-advised with Prof. Chao Li, September 2021 ~ present)
 
-***Cheng Xu*** (co-advised with Prof. Chao Li, May 2022 ~ present)
+***Jinyang Guo*** (co-advised with Prof. Chao Li, April 2022 ~ present)
 
-***Jinyang Guo*** (co-advised with Prof. Chao Li, April 2023 ~ present)
+***Cheng Xu*** (co-advised with Prof. Chao Li, September 2023 ~ present)
 
-***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2022 ~ present)
+***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2024 ~ present)
  <br>
  <br>
  
 ### Master Students
 ***Peng Tang*** (co-advised with Prof. Chao Li, September 2023 ~ present) 
 
-***Tongqiao Xu*** (co-advised with Prof. Chao Li, February 2023 ~ present) 
+***Tongqiao Xu*** (co-advised with Prof. Chao Li, September 2023 ~ present) 
 
-***Wenfeng Wang*** (co-advised with Prof. Chao Li, February 2024 ~ present) 
+***Wenfeng Wang*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
 
-***Mingxuan Zhang*** (co-advised with Prof. Chao Li, February 2024 ~ present) 
+***Mingxuan Zhang*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
 
-***Yuhang Ren*** (co-advised with Prof. Chao Li, February 2024 ~ present) 
+***Yuhang Ren*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
 
-***Xiaozhi Zhu*** (co-advised with Prof. Chao Li, February 2025 ~ present) 
+***Xiaozhi Zhu*** (co-advised with Prof. Chao Li, September 2025 ~ present) 
 
-***Han Yang*** (co-advised with Prof. Chao Li, February 2025 ~ present) 
+***Han Yang*** (co-advised with Prof. Chao Li, September 2025 ~ present) 
  <br>
  <br>
 
 
 ### Undergraduate Students
-***Xinfeng Xia*** (September 2022 ~ present) 
+***Xinfeng Xia*** (September 2023 ~ present) 
  <br>
  <br>
 
 ### Graduated Students
 I wish them all the best for their future endeavors.
 
-***Xuehan Tang*** (co-advised with Prof. Chao Li, 2021 ~ 2022).<br>Placement: **Master Student at EPFL**
-
-***Xinkai Wang*** (co-advised with Prof. Chao Li, May 2020 ~ September 2020). <br>Placement: **Ph.D. Candidate at Shanghai Jiao Tong University** 
+***Xuehan Tang*** (co-advised with Prof. Chao Li, August 2021 ~ September 2022).<br>Placement: **Master Student at EPFL**
 
 ***Linqi Chen*** (co-advised with Prof. Chao Li, August 2019 ~ November 2019). <br>Placement: **Undergraduate at Shanghai Jiao Tong University** 
 
