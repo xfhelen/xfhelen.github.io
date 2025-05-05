@@ -1,15 +1,4 @@
----
-layout: page
-permalink: /mentoring/
-title: Mentoring
-description: It is my great pleasure to work with these talented and hard-working students!
-nav: true
----
-<!-- 
-1. Publications
-2. Tools
-3. Awrads
- -->
+
 
 ### Current Students
 ***Xinkai Wang*** (co-advised with Prof. Chao Li, April 2023 ~ present)<br>*Profile and Analysis of datacenter workloads*<br>Current placement: Ph.D. Candidate at Shanghai Jiaotong University. 
