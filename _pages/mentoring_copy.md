@@ -20,6 +20,8 @@ nav: true
 ***Cheng Xu*** (co-advised with Prof. Chao Li, September 2023 ~ present)
 
 ***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2024 ~ present)
+
+***Tianhao Huang*** (co-advised with Prof. Chao Li, September 2025 ~ present)
  <br>
  <br>
  
