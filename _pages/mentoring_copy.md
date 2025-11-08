@@ -26,19 +26,21 @@ nav: true
  <br>
  
 ### Master Students
-***Peng Tang*** (co-advised with Prof. Chao Li, September 2023 ~ present) 
+***Peng Tang*** (September 2023 ~ present) 
 
 ***Tongqiao Xu*** (co-advised with Prof. Chao Li, September 2023 ~ present) 
 
-***Wenfeng Wang*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
+***Wenfeng Wang*** (September 2024 ~ present) 
 
-***Mingxuan Zhang*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
+***Mingxuan Zhang*** (September 2024 ~ present) 
 
-***Yuhang Ren*** (co-advised with Prof. Chao Li, September 2024 ~ present) 
+***Yuhang Ren*** (September 2024 ~ present) 
 
-***Xiaozhi Zhu*** (co-advised with Prof. Chao Li, September 2025 ~ present) 
+***Xiaozhi Zhu*** (September 2025 ~ present) 
 
-***Han Yang*** (co-advised with Prof. Chao Li, September 2025 ~ present) 
+***Han Yang*** (September 2025 ~ present) 
+
+***Haozhe Wei*** (September 2025 ~ present) 
  <br>
  <br>
 
