@@ -51,7 +51,7 @@ My research addresses the critical computing challenges in the era of AI. I spec
 **Automated Architecture/System Designs**: Using automated methods to discover and implement optimal computer architectures and systems for emerging applications.
 
 
-**【诚招】博士/硕士/科研实习生 — 共同打造下一代高效能人工智能系统**
+**【诚招】博士/硕士/本科实习生 — 共同打造下一代高效智能计算系统**
 
 我的课题组专注于高效能、可持续的AI计算，通过软硬件协同设计，解决大模型时代的算力与能耗挑战。课题组长期招收博士生、硕士生和本科实习生。目前有如下多个科研课题：
 
@@ -60,7 +60,7 @@ My research addresses the critical computing challenges in the era of AI. I spec
 3. **边缘与端侧推理加速技术：** 在汽车、卫星等边缘场景实现低功耗的本地AI;
 4. **大模型微服务化系统：** 构建灵活、高可用的分布式AI服务系统。
 
-感兴趣的同学欢迎发邮件（hou-xfatcs.sjtu.edu.cn）与我交流。
+感兴趣的同学欢迎发邮件（hou-xf at cs.sjtu.edu.cn）与我交流。
 
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
 
