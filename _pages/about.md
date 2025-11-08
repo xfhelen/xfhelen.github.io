@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am an assistant professor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU).  At SJTU, I'm a member of Emerging Parallel Computing Center (<a href="http://epcc.sjtu.edu.cn/">EPCC</a>) and 	
-Sustainable Architecture and Intelligence Laboratory (<a href="https://www.cs.sjtu.edu.cn/sail/">SAIL</a>). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> at the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://cs.sjtu.edu.cn/~guo-my/">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology (with honors).
+Sustainable Architecture and Intelligence Laboratory (<a href="https://www.cs.sjtu.edu.cn/sail/">SAIL</a>). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> at the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://cs.sjtu.edu.cn/~guo-my/">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology.
 
  
 
@@ -40,7 +40,15 @@ My primary research interest is in implementing energy-efficient system and arch
 My broader interests include microscale, hyperscale and hybrid datacenters, power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc.  -->
 <!-- My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms include autonomous sensors for the Artificial Intelligence of Things (AIoT) as well as advanced datacenters. My research also encompasses a wide range of topics such as power and energy management, automated architecture and system designs, sustainable computing, carbon neutrality, etc. In addition, I am interested in studying microscale, hyperscale, and hybrid datacenters to understand their unique non-computing and computing requirements. -->
 
-I am working on deploying and implementing efficient and sustainable computer architectures and systems. My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms range from autonomous embedded systems (AES) for Artificial Intelligence of Things (AIoT) to advanced datacenters including microscale, hyperscale, and hybrid datacenters. I am also interested in studying and understanding their unique non-computational and computational requirements. As a result, my research encompasses a wide range of topics such as power and energy management, AI infrastructures, automated architecture and system design, sustainable computing, carbon neutrality, etc.
+<!-- I am working on deploying and implementing efficient and sustainable computer architectures and systems. My primary research focus is on developing efficient system and architecture co-design techniques for intelligent computing platforms spanning different scales. These platforms range from autonomous embedded systems (AES) for Artificial Intelligence of Things (AIoT) to advanced datacenters including microscale, hyperscale, and hybrid datacenters. I am also interested in studying and understanding their unique non-computational and computational requirements. As a result, my research encompasses a wide range of topics such as power and energy management, AI infrastructures, automated architecture and system design, sustainable computing, carbon neutrality, etc. -->
+
+<!-- I am working on efficient architecture-system co-designs for intelligent computing platforms of different scales spanning from microscale, hyperscale, and hybrid datacenters to autonomous devices. My Research interests include: automated architecture and system designs, power and energy management, multi-modal LLM serving, etc. -->
+
+My research addresses the critical computing challenges in the era of AI. I specialize in architecture-system co-designs for highly-efficient intelligent computing. My work spans from autonomous edge devices to hyperscale datacenters, with a focus on:
+
+**Efficient Multi-Modal LLM Serving**: Developing novel hardware and software solutions to reduce the latency and energy costs of large model inference.
+
+**Automated Architecture/System Designs**: Using automated methods to discover and implement optimal computer architectures and systems for emerging applications.
 
 
 **A Message for Prospective Students:**
@@ -48,6 +56,16 @@ I am working on deploying and implementing efficient and sustainable computer ar
 
 **I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design.**
 <!-- I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD). -->
+
+我的课题组专注于高效能、可持续的AI计算，通过软硬件协同设计，解决大模型时代的算力与能耗挑战。课题组长期招收博士生、硕士生和本科实习生。目前有如下多个科研课题：
+
+1. 多模态模型推理加速 (让文生图/视频模型跑得更快、更省电。);
+2. 稀疏混合专家MOE大模型系统优化 (突破显存墙，高效服务万亿参数的稀疏大模型。);
+3. 边缘与端侧推理加速技术（在汽车、卫星等边缘场景实现低功耗的本地AI。）;
+4. 大模型微服务化系统（构建灵活、高可用的分布式AI服务系统。）。
+
+感兴趣的同学欢迎发邮件与我交流。
+
 
 ***If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [hou-xf (at) cs.sjtu.edu.cn] along with your CV to arrange an appointment.***
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
