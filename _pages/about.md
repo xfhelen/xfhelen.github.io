@@ -51,23 +51,17 @@ My research addresses the critical computing challenges in the era of AI. I spec
 **Automated Architecture/System Designs**: Using automated methods to discover and implement optimal computer architectures and systems for emerging applications.
 
 
-**A Message for Prospective Students:**
-
-
-**I'm looking for bright and self-motivated PhD, Master and Undergraduate students who have a strong interest in computer architecture and system design.**
-<!-- I'm interested in new colleagues at all levels: undergraduates and garduddate students (MS/PhD). -->
+**【诚招】博士/硕士/科研实习生 — 共同打造下一代高效能人工智能系统**
 
 我的课题组专注于高效能、可持续的AI计算，通过软硬件协同设计，解决大模型时代的算力与能耗挑战。课题组长期招收博士生、硕士生和本科实习生。目前有如下多个科研课题：
 
-1. 多模态模型推理加速 (让文生图/视频模型跑得更快、更省电。);
-2. 稀疏混合专家MOE大模型系统优化 (突破显存墙，高效服务万亿参数的稀疏大模型。);
-3. 边缘与端侧推理加速技术（在汽车、卫星等边缘场景实现低功耗的本地AI。）;
-4. 大模型微服务化系统（构建灵活、高可用的分布式AI服务系统。）。
+1. **多模态模型推理加速：** 让文生图/视频模型跑得更快、更省电;
+2. **稀疏混合专家MOE大模型系统优化：** 突破显存墙，高效服务万亿参数的稀疏大模型;
+3. **边缘与端侧推理加速技术：** 在汽车、卫星等边缘场景实现低功耗的本地AI;
+4. **大模型微服务化系统：** 构建灵活、高可用的分布式AI服务系统。
 
-感兴趣的同学欢迎发邮件与我交流。
+感兴趣的同学欢迎发邮件（hou-xfatcs.sjtu.edu.cn）与我交流。
 
-
-***If you want to work with me (or just discuss your brilliant idea with me), please feel free to send me an email [hou-xf (at) cs.sjtu.edu.cn] along with your CV to arrange an appointment.***
 <!-- **I am currently focusing on deploying and implementing highly energy-efficient intelligent datacenters through cross-layer optimization for multi-modal AI applications.** -->
 
 <!-- to design and implement next-genegration, green computers. -->
