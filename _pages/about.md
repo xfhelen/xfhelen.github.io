@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor in the School of Computer Science at Shanghai Jiao Tong University (SJTU).  At SJTU, I'm also a member of the Emerging Parallel Computing Center (<a href="http://epcc.sjtu.edu.cn/">EPCC</a>) and 	
+I am an Associate professor in the School of Computer Science at Shanghai Jiao Tong University (SJTU).  At SJTU, I'm also a member of the Emerging Parallel Computing Center (<a href="http://epcc.sjtu.edu.cn/">EPCC</a>) and 	
 Sustainable Architecture and Intelligence Laboratory (<a href="https://www.cs.sjtu.edu.cn/sail/">SAIL</a>). Prior to joining SJTU, I worked with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting CHENG</a> at the AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong University of Science and Technology (HKUST). I earned my PhD degree from Shanghai Jiao Tong University under the joint supervision of <a href="https://www.cs.sjtu.edu.cn/~lichao/index.html">Prof. Chao Li</a> and  <a href="https://cs.sjtu.edu.cn/~guo-my/">Prof. Minyi Guo</a>. I earned my BS degree from Dalian University of Technology.
 
  
