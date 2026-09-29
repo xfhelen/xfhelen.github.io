@@ -11,7 +11,7 @@ nav: true
 3. Awrads
  -->
 
-### PhD Students
+### Ph.D. Students
 ***Cheng Xu*** (co-advised with Prof. Chao Li, September 2023 ~ present)
 
 ***Lingyu Sun*** (co-advised with Prof. Chao Li, April 2024 ~ present)
