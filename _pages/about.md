@@ -8,7 +8,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: xiaofeng2.jpg
   motto: >
     <p>Still waters run deep.</p>
 
