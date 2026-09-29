@@ -18,7 +18,7 @@ nav: true
 
 ***Tianhao Huang*** (co-advised with Prof. Chao Li, September 2025 ~ present)
 
-***Xinfeng Xia*** (co-advised with Prof. Chao Li, September 2025 ~ present, September 2026 ~ present) 
+***Xinfeng Xia*** (co-advised with Prof. Chao Li, September 2026 ~ present) 
  <br>
  <br>
  
@@ -70,14 +70,18 @@ I wish them all the best for their future endeavors.
 ***Xinkai Wang*** (co-advised with Prof. Chao Li, September 2021 ~ June 2026)
 
 ### Master Students
-***Peng Tang*** (September 2023 ~ March 2026) 
+***Peng Tang*** (September 2023 ~ March 2026). <br>Placement: **Staff at Huawei Technologies Co., Ltd.**
 
-***Tongqiao Xu*** (co-advised with Prof. Chao Li, September 2023 ~ March 2026) 
+***Tongqiao Xu*** (co-advised with Prof. Chao Li, September 2023 ~ March 2026). <br>Placement: **Staff at Nvidia**
 
 ### Undergraduate Students
-***Xuehan Tang*** (co-advised with Prof. Chao Li, August 2021 ~ September 2022).<br>Placement: **Master Student at EPFL**
+***Xinfeng Xia*** (co-advised with Prof. Chao Li, April 2024 ~ September 2026).<br>Placement: **Ph.D. Student at SJTU**
 
-***Linqi Chen*** (co-advised with Prof. Chao Li, August 2019 ~ November 2019). <br>Placement: **Undergraduate at Shanghai Jiao Tong University** 
+***Tianhao Huang*** (co-advised with Prof. Chao Li, April 2024 ~ September 2025).<br>Placement: **Ph.D. Student at SJTU**
+
+***Xiaozhi Zhu*** (co-advised with Prof. Chao Li, April 2024 ~ September 2025).<br>Placement: **Master Student at SJTU**
+
+***Xuehan Tang*** (co-advised with Prof. Chao Li, August 2021 ~ September 2022).<br>Placement: **Master Student at EPFL**
 
 ***Mingyu Liang*** (co-advised with Prof. Chao Li, June 2018 ~ September 2019). <br>Placement: **Ph.D. Candidate at Cornell University**
 
