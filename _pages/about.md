@@ -51,7 +51,7 @@ My research addresses the critical computing challenges in the era of AI. I spec
 **Automated Architecture/System Designs**: Using automated methods to discover and implement optimal computer architectures and systems for emerging applications.
 
 
-**【诚招】博士/硕士/本科实习生 — 共同打造下一代高效智能计算系统**
+**【诚招】博士/硕士/本科实习生 — 共同打造下一代高效可持续智能计算系统**
 
 我的课题组专注于高效能、可持续的AI计算，通过软硬件协同设计，解决大模型时代的算力与能耗挑战。课题组长期招收博士生、硕士生和本科实习生。目前有如下多个科研课题：
 
